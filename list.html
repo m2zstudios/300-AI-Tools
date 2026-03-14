@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Browse AI Tools | AI Tools Directory</title>
+  <meta name="description" content="Browse all AI tools by category, search by name, and open detailed pages for each product." />
+  <meta property="og:title" content="Browse AI Tools | AI Tools Directory" />
+  <meta property="og:description" content="Search and filter 300+ AI tools with category and quick actions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/list.html" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="list">
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">AI Tools Hub</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="mainNav" aria-label="Main Navigation">
+        <a href="index.html">Home</a>
+        <a href="list.html" class="active">Browse Tools</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <section class="section-head list-header">
+      <h1>Browse AI Tools</h1>
+      <p class="muted" id="resultsCount">Loading tools...</p>
+    </section>
+
+    <section class="filters" aria-label="Tool filters">
+      <label>
+        <span class="sr-only">Search tools by title</span>
+        <input id="searchInput" type="search" placeholder="Search by title..." autocomplete="off" />
+      </label>
+      <label>
+        <span class="sr-only">Filter by category</span>
+        <select id="categoryFilter">
+          <option value="all">All categories</option>
+        </select>
+      </label>
+    </section>
+
+    <section>
+      <div class="grid" id="toolsGrid" aria-live="polite"></div>
+      <div class="empty-state hidden" id="emptyState">
+        <h2>No tools found</h2>
+        <p>Try changing search terms or choosing a different category.</p>
+      </div>
+      <div class="load-more-wrap">
+        <button id="loadMoreBtn" class="btn btn-secondary hidden">Load More</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> AI Tools Hub</p>
+      <nav aria-label="Footer links">
+        <a href="#">About</a>
+        <a href="#">Privacy</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="tools.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

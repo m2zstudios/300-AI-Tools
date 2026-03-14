@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Tools Directory | Discover 300+ AI Tools</title>
+  <meta name="description" content="Discover 300+ curated AI tools across categories. Explore trending platforms, compare categories, and find the best AI software for your workflow." />
+  <meta property="og:title" content="AI Tools Directory | Discover 300+ AI Tools" />
+  <meta property="og:description" content="Explore trending and categorized AI tools in a fast, SEO-friendly directory." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="index">
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">AI Tools Hub</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="mainNav" aria-label="Main Navigation">
+        <a href="index.html" class="active">Home</a>
+        <a href="list.html">Browse Tools</a>
+        <a href="#categories">Categories</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <h1>Discover 300+ AI Tools</h1>
+        <p>Find the best AI products for design, writing, coding, automation, analytics, and more in one modern, searchable directory.</p>
+        <a href="list.html" class="btn btn-primary">Browse Tools</a>
+      </div>
+    </section>
+
+    <section class="stats container" aria-label="Directory summary">
+      <div class="stat-card">
+        <h2 id="totalTools">0</h2>
+        <p>Total Tools</p>
+      </div>
+      <div class="stat-card">
+        <h2 id="totalCategories">0</h2>
+        <p>Categories</p>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="section-head">
+        <h2>Trending Tools</h2>
+        <a href="list.html" class="text-link">See all</a>
+      </div>
+      <div class="grid" id="trendingGrid" aria-live="polite"></div>
+    </section>
+
+    <section class="container section" id="categories">
+      <div class="section-head">
+        <h2>Category Stats</h2>
+      </div>
+      <div class="category-stats" id="categoryStats"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> AI Tools Hub</p>
+      <nav aria-label="Footer links">
+        <a href="#">About</a>
+        <a href="#">Privacy</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="tools.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
