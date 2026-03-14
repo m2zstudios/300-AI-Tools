@@ -2094,4 +2094,6 @@ const tools = [
   },
 ];
 
-export default tools;
+if (typeof window !== 'undefined') {
+  window.tools = tools;
+}
