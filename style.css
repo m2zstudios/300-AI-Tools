@@ -1,4 +1,5 @@
 :root {
+  color-scheme: light;
   --bg: #f4f7ff;
   --bg-soft: #eef3ff;
   --surface: #ffffff;
@@ -127,6 +128,26 @@ a {
   cursor: pointer;
 }
 
+
+.nav-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text);
+  width: 42px;
+  height: 42px;
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+}
 .main-nav {
   position: absolute;
   top: 72px;
@@ -503,6 +524,29 @@ a:focus-visible {
 .load-more-wrap {
   text-align: center;
   margin-top: 1rem;
+  min-height: 28px;
+}
+
+.infinite-loader {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.infinite-loader::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  border-top-color: var(--primary);
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }
 
 .breadcrumb {
@@ -596,6 +640,91 @@ a:focus-visible {
 .text-link:hover,
 .breadcrumb a:hover {
   color: var(--primary);
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0b1220;
+  --bg-soft: #131c2f;
+  --surface: #121a2c;
+  --surface-elevated: #121a2c;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --border: #27354d;
+  --ring: rgba(129, 140, 248, 0.35);
+  --shadow-sm: 0 6px 14px rgba(2, 6, 23, 0.45);
+  --shadow-md: 0 12px 30px rgba(2, 6, 23, 0.55);
+  --shadow-lg: 0 24px 42px rgba(2, 6, 23, 0.65);
+}
+
+html[data-theme="dark"] body {
+  background:
+    radial-gradient(circle at 0% 0%, rgba(79, 70, 229, 0.18), transparent 32%),
+    radial-gradient(circle at 100% 0%, rgba(6, 182, 212, 0.2), transparent 32%),
+    var(--bg);
+}
+
+html[data-theme="dark"] .site-header {
+  background: rgba(11, 18, 32, 0.86);
+  border-bottom-color: var(--border);
+}
+
+html[data-theme="dark"] .logo {
+  background: linear-gradient(120deg, #bfdbfe, #a5b4fc 45%, #67e8f9);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+html[data-theme="dark"] .main-nav {
+  background: rgba(18, 26, 44, 0.97);
+}
+
+html[data-theme="dark"] .hero {
+  color: #e2e8f0;
+  background: linear-gradient(135deg, #0f172a, #1e1b4b 42%, #0f766e);
+}
+
+html[data-theme="dark"] .hero p {
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .tool-card,
+html[data-theme="dark"] .tool-article,
+html[data-theme="dark"] .stat-card,
+html[data-theme="dark"] .empty-state,
+html[data-theme="dark"] .not-found {
+  background: linear-gradient(180deg, #121a2c, #101827);
+}
+
+html[data-theme="dark"] .badge {
+  background: #1e293b;
+  color: #c7d2fe;
+  border-color: #334155;
+}
+
+html[data-theme="dark"] .btn-secondary,
+html[data-theme="dark"] input,
+html[data-theme="dark"] select,
+html[data-theme="dark"] .favorites-only,
+html[data-theme="dark"] .menu-toggle,
+html[data-theme="dark"] .theme-toggle,
+html[data-theme="dark"] .fav-btn {
+  background: #111a2d;
+  color: var(--text);
+  border-color: var(--border);
+}
+
+html[data-theme="dark"] .tool-logo {
+  background: #0f172a;
+  border-color: #334155;
+}
+
+html[data-theme="dark"] .favorites-only input {
+  accent-color: #818cf8;
+}
+
+html[data-theme="dark"] .site-footer {
+  background: rgba(15, 23, 42, 0.9);
 }
 
 @media (max-width: 420px) {

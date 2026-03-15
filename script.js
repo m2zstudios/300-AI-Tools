@@ -3,7 +3,8 @@
 
   const STORAGE_KEYS = {
     favorites: "aiTools:favorites",
-    recent: "aiTools:recentViewed"
+    recent: "aiTools:recentViewed",
+    theme: "aiTools:theme"
   };
 
   const state = {
@@ -12,7 +13,8 @@
     listLimit: 24,
     page: document.body.dataset.page,
     favorites: loadNumberArray(STORAGE_KEYS.favorites),
-    recent: loadNumberArray(STORAGE_KEYS.recent)
+    recent: loadNumberArray(STORAGE_KEYS.recent),
+    theme: localStorage.getItem(STORAGE_KEYS.theme) || "light"
   };
 
   const $ = (sel, root = document) => root.querySelector(sel);
@@ -100,6 +102,29 @@
     saveNumberArray(STORAGE_KEYS.recent, state.recent);
   }
 
+
+  function applyTheme(theme) {
+    state.theme = theme === "dark" ? "dark" : "light";
+    document.documentElement.setAttribute("data-theme", state.theme);
+    localStorage.setItem(STORAGE_KEYS.theme, state.theme);
+
+    const themeToggle = $("#themeToggle");
+    if (themeToggle) {
+      themeToggle.textContent = state.theme === "dark" ? "☀️" : "🌙";
+      themeToggle.setAttribute("aria-label", state.theme === "dark" ? "Switch to light mode" : "Switch to dark mode");
+    }
+  }
+
+  function initTheme() {
+    applyTheme(state.theme);
+    const themeToggle = $("#themeToggle");
+    if (themeToggle) {
+      themeToggle.addEventListener("click", () => {
+        applyTheme(state.theme === "dark" ? "light" : "dark");
+      });
+    }
+  }
+
   function initGlobalUi() {
     const year = $("#year");
     if (year) year.textContent = new Date().getFullYear();
@@ -142,8 +167,7 @@
         <p class="description-2">${escapeHtml(tool.description)}</p>
         <div class="card-actions">
           <a class="btn btn-secondary" href="${detailHref(tool.id)}">View Details</a>
-          <a class="btn btn-primary" href="${escapeHtml(tool.link)}" target="_blank" rel="noopener noreferrer">Visit Tool</a>
-        </div>
+                  </div>
       </article>
     `;
   }
@@ -206,7 +230,8 @@
     const toolsGrid = $("#toolsGrid");
     const emptyState = $("#emptyState");
     const resultsCount = $("#resultsCount");
-    const loadMoreBtn = $("#loadMoreBtn");
+    const listSentinel = $("#listSentinel");
+    const infiniteLoader = $("#infiniteLoader");
 
     const categories = [...new Set(state.allTools.map((t) => t.category))].sort((a, b) => a.localeCompare(b));
     categoryFilter.innerHTML += categories.map((c) => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join("");
@@ -245,7 +270,8 @@
 
       resultsCount.textContent = `${state.filtered.length} tools found · ${state.favorites.length} favorites saved`;
       emptyState.classList.toggle("hidden", state.filtered.length > 0);
-      loadMoreBtn.classList.toggle("hidden", state.filtered.length <= state.listLimit);
+      const hasMore = state.filtered.length > state.listLimit;
+      if (infiniteLoader) infiniteLoader.classList.toggle("hidden", !hasMore);
     }
 
     const debouncedApply = debounce(applyFilters, 200);
@@ -254,10 +280,21 @@
     sortFilter.addEventListener("change", applyFilters);
     favoritesOnly.addEventListener("change", applyFilters);
 
-    loadMoreBtn.addEventListener("click", () => {
-      state.listLimit += 24;
-      renderList();
-    });
+
+
+    if (listSentinel) {
+      const observer = new IntersectionObserver((entries) => {
+        const first = entries[0];
+        if (!first || !first.isIntersecting) return;
+        if (state.filtered.length <= state.listLimit) return;
+        if (infiniteLoader) infiniteLoader.classList.remove("hidden");
+        setTimeout(() => {
+          state.listLimit += 24;
+          renderList();
+        }, 220);
+      }, { rootMargin: "300px" });
+      observer.observe(listSentinel);
+    }
 
     const params = new URLSearchParams(location.search);
     const initialCategory = params.get("category");
@@ -411,6 +448,7 @@
     topBtn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
   }
 
+  initTheme();
   initGlobalUi();
 
   if (state.page === "index") initIndexPage();
