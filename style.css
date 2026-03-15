@@ -93,6 +93,7 @@ a {
   border-bottom: 1px solid rgba(219, 228, 255, 0.7);
   backdrop-filter: blur(14px);
   background: rgba(244, 247, 255, 0.82);
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.06);
 }
 
 .nav-wrap {
@@ -249,7 +250,8 @@ a {
 }
 
 .btn-primary {
-  color: #fff;
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.15);
   background: linear-gradient(120deg, var(--primary), var(--secondary));
   box-shadow: 0 8px 22px rgba(67, 56, 202, 0.35);
 }
@@ -260,6 +262,7 @@ a {
 
 .btn-secondary {
   color: var(--text);
+  opacity: 1;
   background: var(--surface);
   border-color: var(--border);
   box-shadow: var(--shadow-sm);
@@ -445,6 +448,22 @@ a {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+
+.badge-link {
+  text-decoration: none;
+}
+
+.category-link {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.18s ease, border-color 0.18s ease;
+}
+
+.category-link:hover {
+  transform: translateY(-2px);
+  border-color: #b9c8ff;
 }
 
 .badge {
@@ -721,6 +740,20 @@ html[data-theme="dark"] .tool-logo {
 
 html[data-theme="dark"] .favorites-only input {
   accent-color: #818cf8;
+}
+
+html[data-theme="dark"] .btn-primary {
+  color: #f8fafc;
+}
+
+html[data-theme="dark"] .fav-inline-active {
+  color: #fde68a;
+  background: #3f2f00;
+  border-color: #fbbf24;
+}
+
+html[data-theme="dark"] .category-link:hover {
+  border-color: #5b6ea8;
 }
 
 html[data-theme="dark"] .site-footer {

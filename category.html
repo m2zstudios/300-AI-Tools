@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Browse AI Tools | AI Tools Directory</title>
-  <meta name="description" content="Browse all AI tools by category, search by name, and open detailed pages for each product." />
-  <meta property="og:title" content="Browse AI Tools | AI Tools Directory" />
-  <meta property="og:description" content="Search and filter 300+ AI tools with category and quick actions." />
+  <title>Category Tools | AI Tools Directory</title>
+  <meta name="description" content="Browse AI tools in a specific category." />
+  <meta property="og:title" content="Category Tools | AI Tools Directory" />
+  <meta property="og:description" content="Explore AI tools for a selected category." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/list.html" />
+  <meta property="og:url" content="/category.html" />
   <link rel="stylesheet" href="style.css" />
 </head>
-<body data-page="list">
+<body data-page="category">
   <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
 
   <header class="site-header">
@@ -23,32 +23,26 @@
       </div>
       <nav class="main-nav" id="mainNav" aria-label="Main Navigation">
         <a href="index.html">Home</a>
-        <a href="list.html" class="active">Browse Tools</a>
-        <a href="category.html">Categories</a>
+        <a href="list.html">Browse Tools</a>
+        <a href="category.html" class="active">Category</a>
       </nav>
     </div>
   </header>
 
   <main class="container section">
     <section class="section-head list-header">
-      <h1>Browse AI Tools</h1>
-      <p class="muted" id="resultsCount">Loading tools...</p>
+      <h1 id="categoryTitle">Category Tools</h1>
+      <p class="muted" id="categoryCount">Loading tools...</p>
     </section>
 
-    <section class="filters" aria-label="Tool filters">
+    <section class="filters" aria-label="Category tools controls">
       <label>
-        <span class="sr-only">Search tools by title</span>
-        <input id="searchInput" type="search" placeholder="Search by title..." autocomplete="off" />
-      </label>
-      <label>
-        <span class="sr-only">Filter by category</span>
-        <select id="categoryFilter">
-          <option value="all">All categories</option>
-        </select>
+        <span class="sr-only">Search in category</span>
+        <input id="categorySearch" type="search" placeholder="Search in this category..." autocomplete="off" />
       </label>
       <label>
         <span class="sr-only">Sort tools</span>
-        <select id="sortFilter">
+        <select id="categorySort">
           <option value="title-asc">Sort: Title A–Z</option>
           <option value="title-desc">Sort: Title Z–A</option>
           <option value="id-asc">Sort: Oldest First</option>
@@ -56,21 +50,19 @@
         </select>
       </label>
       <label class="favorites-only">
-        <input id="favoritesOnly" type="checkbox" />
+        <input id="categoryFavOnly" type="checkbox" />
         <span>Favorites only</span>
       </label>
     </section>
 
     <section>
-      <div class="grid" id="toolsGrid" aria-live="polite"></div>
-      <div class="empty-state hidden" id="emptyState">
-        <h2>No tools found</h2>
-        <p>Try changing search terms or choosing a different category.</p>
+      <div class="grid" id="categoryGrid" aria-live="polite"></div>
+      <div class="empty-state hidden" id="categoryEmpty">
+        <h2>No tools found in this category</h2>
+        <p>Try changing search terms or removing favorites-only mode.</p>
       </div>
-      <div class="load-more-wrap" id="infiniteLoaderWrap">
-        <div id="infiniteLoader" class="infinite-loader hidden" aria-live="polite">Loading more tools…</div>
-      </div>
-      <div id="listSentinel" aria-hidden="true"></div>
+      <div class="load-more-wrap"><div id="categoryLoader" class="infinite-loader hidden">Loading more tools…</div></div>
+      <div id="categorySentinel" aria-hidden="true"></div>
     </section>
   </main>
 

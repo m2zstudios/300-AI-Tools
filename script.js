@@ -84,6 +84,10 @@
     return routePath("index");
   }
 
+  function categoryHref(category) {
+    return `${routePath("category")}?name=${encodeURIComponent(category)}`;
+  }
+
   function isFavorite(toolId) {
     return state.favorites.includes(toolId);
   }
@@ -159,7 +163,7 @@
         <div class="tool-card-top">
           <img class="tool-logo" src="${logo}" alt="${escapeHtml(tool.title)} logo" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="if(!this.dataset.fb){this.dataset.fb='1';this.src='${fallback}';}else{this.style.display='none';}">
           <div class="tool-card-meta">
-            <span class="badge">${escapeHtml(tool.category)}</span>
+            <a class="badge badge-link" href="${categoryHref(tool.category)}">${escapeHtml(tool.category)}</a>
             <button class="fav-btn ${favoriteState ? "is-active" : ""}" data-fav-id="${tool.id}" aria-label="Toggle favorite for ${escapeHtml(tool.title)}" title="Toggle favorite">★</button>
           </div>
         </div>
@@ -167,7 +171,7 @@
         <p class="description-2">${escapeHtml(tool.description)}</p>
         <div class="card-actions">
           <a class="btn btn-secondary" href="${detailHref(tool.id)}">View Details</a>
-                  </div>
+        </div>
       </article>
     `;
   }
@@ -212,10 +216,10 @@
     }
 
     const statsHtml = categories.map((category) => `
-      <div class="category-pill">
+      <a class="category-pill category-link" href="${categoryHref(category)}">
         <span>${escapeHtml(category)}</span>
         <strong>${categoryMap[category]}</strong>
-      </div>
+      </a>
     `).join("");
     $("#categoryStats").innerHTML = statsHtml;
 
@@ -301,6 +305,89 @@
     if (initialCategory && categories.includes(initialCategory)) categoryFilter.value = initialCategory;
 
     state.filtered = [...state.allTools];
+    applyFilters();
+  }
+
+
+  function initCategoryPage() {
+    const params = new URLSearchParams(location.search);
+    const categoryName = params.get("name") || "";
+
+    const titleEl = $("#categoryTitle");
+    const countEl = $("#categoryCount");
+    const searchInput = $("#categorySearch");
+    const sortFilter = $("#categorySort");
+    const favoritesOnly = $("#categoryFavOnly");
+    const grid = $("#categoryGrid");
+    const empty = $("#categoryEmpty");
+    const sentinel = $("#categorySentinel");
+    const loader = $("#categoryLoader");
+
+    if (!categoryName) {
+      titleEl.textContent = "Category not selected";
+      countEl.textContent = "Choose a category from Home or Browse page.";
+      empty.classList.remove("hidden");
+      empty.innerHTML = `<h2>No category selected</h2><p>Please open a category first.</p><a class="btn btn-primary" href="${listHref()}">Browse all tools</a>`;
+      return;
+    }
+
+    titleEl.textContent = `${categoryName} Tools`;
+
+    function sortTools(items, mode) {
+      const sorted = [...items];
+      if (mode === "title-desc") sorted.sort((a, b) => b.title.localeCompare(a.title));
+      else if (mode === "id-asc") sorted.sort((a, b) => a.id - b.id);
+      else if (mode === "id-desc") sorted.sort((a, b) => b.id - a.id);
+      else sorted.sort((a, b) => a.title.localeCompare(b.title));
+      return sorted;
+    }
+
+    function applyFilters() {
+      const term = searchInput.value.trim().toLowerCase();
+      const sortMode = sortFilter.value;
+      const favOnly = favoritesOnly.checked;
+
+      state.filtered = state.allTools.filter((tool) => {
+        const inCategory = tool.category === categoryName;
+        const titleMatch = tool.title.toLowerCase().includes(term);
+        const favoriteMatch = !favOnly || isFavorite(tool.id);
+        return inCategory && titleMatch && favoriteMatch;
+      });
+
+      state.filtered = sortTools(state.filtered, sortMode);
+      state.listLimit = 24;
+      render();
+    }
+
+    function render() {
+      const visible = state.filtered.slice(0, state.listLimit);
+      grid.innerHTML = visible.map(createCard).join("");
+      bindFavoriteButtons(grid, applyFilters);
+
+      countEl.textContent = `${state.filtered.length} tools in ${categoryName}`;
+      empty.classList.toggle("hidden", state.filtered.length > 0);
+      const hasMore = state.filtered.length > state.listLimit;
+      if (loader) loader.classList.toggle("hidden", !hasMore);
+    }
+
+    searchInput.addEventListener("input", debounce(applyFilters, 200));
+    sortFilter.addEventListener("change", applyFilters);
+    favoritesOnly.addEventListener("change", applyFilters);
+
+    if (sentinel) {
+      const observer = new IntersectionObserver((entries) => {
+        const first = entries[0];
+        if (!first || !first.isIntersecting) return;
+        if (state.filtered.length <= state.listLimit) return;
+        if (loader) loader.classList.remove("hidden");
+        setTimeout(() => {
+          state.listLimit += 24;
+          render();
+        }, 220);
+      }, { rootMargin: "300px" });
+      observer.observe(sentinel);
+    }
+
     applyFilters();
   }
 
@@ -414,7 +501,7 @@
         <img class="tool-logo tool-logo-lg" src="${detailLogo}" alt="${escapeHtml(tool.title)} logo" loading="eager" decoding="async" referrerpolicy="no-referrer" onerror="if(!this.dataset.fb){this.dataset.fb='1';this.src='${detailFallback}';}else{this.style.display='none';}">
         <div>
           <h1>${escapeHtml(tool.title)}</h1>
-          <span class="badge">${escapeHtml(tool.category)}</span>
+          <a class="badge badge-link" href="${categoryHref(tool.category)}">${escapeHtml(tool.category)}</a>
         </div>
       </div>
       <p>${escapeHtml(tool.description)}</p>
@@ -454,4 +541,5 @@
   if (state.page === "index") initIndexPage();
   if (state.page === "list") initListPage();
   if (state.page === "detailed") initDetailedPage();
+  if (state.page === "category") initCategoryPage();
 })();
