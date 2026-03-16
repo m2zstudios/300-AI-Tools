@@ -164,7 +164,7 @@
           <img class="tool-logo" src="${logo}" alt="${escapeHtml(tool.title)} logo" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="if(!this.dataset.fb){this.dataset.fb='1';this.src='${fallback}';}else{this.style.display='none';}">
           <div class="tool-card-meta">
             <a class="badge badge-link" href="${categoryHref(tool.category)}">${escapeHtml(tool.category)}</a>
-            <button class="fav-btn ${favoriteState ? "is-active" : ""}" data-fav-id="${tool.id}" aria-label="Toggle favorite for ${escapeHtml(tool.title)}" title="Toggle favorite">★</button>
+            <button class="fav-btn ${favoriteState ? "is-active" : ""}" data-fav-id="${tool.id}" aria-label="Toggle favorite for ${escapeHtml(tool.title)}" title="Toggle favorite" aria-pressed="${favoriteState ? "true" : "false"}">${favoriteState ? "★" : "☆"}</button>
           </div>
         </div>
         <h3>${escapeHtml(tool.title)}</h3>
