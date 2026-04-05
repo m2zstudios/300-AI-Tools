@@ -1850,9 +1850,9 @@ const tools = [
   {
     id: 265,
     category: "Productivity",
-    title: "Taskade AI",
-    description: "Taskade is an AI-first productivity and collaboration platform that acts as a second brain for teams — combining task management, project planning, mind mapping, note-taking, and real-time collaboration in one AI-powered workspace. Its AI agents can generate project plans, summarize documents, and automate repetitive workflows. Remote and distributed teams use Taskade to stay organized, aligned, and productive across time zones.",
-    link: "https://www.taskade.com"
+    title: "Motion",
+    description: "Motion is an AI productivity platform that automatically plans your calendar, prioritizes tasks, and builds intelligent schedules based on deadlines, workload, and team availability. It helps individuals and teams reduce context switching and focus on high-impact work by continuously optimizing what to do next.",
+    link: "https://www.usemotion.com"
   },
   {
     id: 266,
@@ -2092,6 +2092,4913 @@ const tools = [
     description: "Zopto is an AI-powered LinkedIn automation and outreach platform that helps sales teams and growth marketers scale their prospecting and lead generation on LinkedIn. It automates connection requests, personalized message sequences, and follow-ups to targeted prospect lists, running outreach campaigns on autopilot while maintaining authenticity. Revenue teams use Zopto to build a consistent, scalable LinkedIn pipeline without manual outreach effort.",
     link: "https://www.zopto.com"
   },
+  {
+    id: 300,
+    category: "AI Assistant",
+    title: "Inflection Engine",
+    description: "Inflection Engine is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.inflection-engine.ai"
+  },
+  {
+    id: 301,
+    category: "Writing & Content",
+    title: "Character Assistant",
+    description: "Character Assistant helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.character-assistant.ai"
+  },
+  {
+    id: 302,
+    category: "Developer Tools",
+    title: "You Writer",
+    description: "You Writer supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.you-writer.ai"
+  },
+  {
+    id: 303,
+    category: "Image Generation",
+    title: "Phind Generator",
+    description: "Phind Generator generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.phind-generator.ai"
+  },
+  {
+    id: 304,
+    category: "Video Generation",
+    title: "Quora Analyzer",
+    description: "Quora Analyzer turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.quora-analyzer.ai"
+  },
+  {
+    id: 305,
+    category: "Speech & Audio",
+    title: "Meta Builder",
+    description: "Meta Builder offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.meta-builder.ai"
+  },
+  {
+    id: 306,
+    category: "Productivity",
+    title: "NVIDIA Planner",
+    description: "NVIDIA Planner improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.nvidia-planner.ai"
+  },
+  {
+    id: 307,
+    category: "Sales & CRM",
+    title: "IBM Flow",
+    description: "IBM Flow helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.ibm-flow.ai"
+  },
+  {
+    id: 308,
+    category: "Marketing Automation",
+    title: "Oracle Labs",
+    description: "Oracle Labs helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.oracle-labs.ai"
+  },
+  {
+    id: 309,
+    category: "Search & Research",
+    title: "Palantir Platform",
+    description: "Palantir Platform accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.palantir-platform.ai"
+  },
+  {
+    id: 310,
+    category: "Education",
+    title: "CrowdStrike Insight",
+    description: "CrowdStrike Insight supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.crowdstrike-insight.ai"
+  },
+  {
+    id: 311,
+    category: "Design",
+    title: "Cloudflare Search",
+    description: "Cloudflare Search helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.cloudflare-search.ai"
+  },
+  {
+    id: 312,
+    category: "Automation",
+    title: "Anthropic Video",
+    description: "Anthropic Video automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.anthropic-video.ai"
+  },
+  {
+    id: 313,
+    category: "Data & Analytics",
+    title: "OpenAI Image",
+    description: "OpenAI Image converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.openai-image.ai"
+  },
+  {
+    id: 314,
+    category: "AI Assistant",
+    title: "Google Agent",
+    description: "Google Agent is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.google-agent.ai"
+  },
+  {
+    id: 315,
+    category: "Writing & Content",
+    title: "Microsoft Composer",
+    description: "Microsoft Composer helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.microsoft-composer.ai"
+  },
+  {
+    id: 316,
+    category: "Developer Tools",
+    title: "Adobe Editor",
+    description: "Adobe Editor supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.adobe-editor.ai"
+  },
+  {
+    id: 317,
+    category: "Image Generation",
+    title: "Notion Automations",
+    description: "Notion Automations generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.notion-automations.ai"
+  },
+  {
+    id: 318,
+    category: "Video Generation",
+    title: "Perplexity Signals",
+    description: "Perplexity Signals turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.perplexity-signals.ai"
+  },
+  {
+    id: 319,
+    category: "Speech & Audio",
+    title: "Canva Dashboard",
+    description: "Canva Dashboard offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.canva-dashboard.ai"
+  },
+  {
+    id: 320,
+    category: "Productivity",
+    title: "Grammarly Toolkit",
+    description: "Grammarly Toolkit improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.grammarly-toolkit.ai"
+  },
+  {
+    id: 321,
+    category: "Sales & CRM",
+    title: "Jasper Research",
+    description: "Jasper Research helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.jasper-research.ai"
+  },
+  {
+    id: 322,
+    category: "Marketing Automation",
+    title: "Runway Academy",
+    description: "Runway Academy helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.runway-academy.ai"
+  },
+  {
+    id: 323,
+    category: "Search & Research",
+    title: "Pika Optimizer",
+    description: "Pika Optimizer accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.pika-optimizer.ai"
+  },
+  {
+    id: 324,
+    category: "Education",
+    title: "Synthesia Manager",
+    description: "Synthesia Manager supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.synthesia-manager.ai"
+  },
+  {
+    id: 325,
+    category: "Design",
+    title: "Descript Pipeline",
+    description: "Descript Pipeline helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.descript-pipeline.ai"
+  },
+  {
+    id: 326,
+    category: "Automation",
+    title: "ElevenLabs Scribe",
+    description: "ElevenLabs Scribe automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.elevenlabs-scribe.ai"
+  },
+  {
+    id: 327,
+    category: "Data & Analytics",
+    title: "Midjourney Studio",
+    description: "Midjourney Studio converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.midjourney-studio.ai"
+  },
+  {
+    id: 328,
+    category: "AI Assistant",
+    title: "Stability Workspace",
+    description: "Stability Workspace is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.stability-workspace.ai"
+  },
+  {
+    id: 329,
+    category: "Writing & Content",
+    title: "Hugging Face Engine",
+    description: "Hugging Face Engine helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.hugging-face-engine.ai"
+  },
+  {
+    id: 330,
+    category: "Developer Tools",
+    title: "Mistral Assistant",
+    description: "Mistral Assistant supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.mistral-assistant.ai"
+  },
+  {
+    id: 331,
+    category: "Image Generation",
+    title: "Cohere Writer",
+    description: "Cohere Writer generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.cohere-writer.ai"
+  },
+  {
+    id: 332,
+    category: "Video Generation",
+    title: "Zapier Generator",
+    description: "Zapier Generator turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.zapier-generator.ai"
+  },
+  {
+    id: 333,
+    category: "Speech & Audio",
+    title: "HubSpot Analyzer",
+    description: "HubSpot Analyzer offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.hubspot-analyzer.ai"
+  },
+  {
+    id: 334,
+    category: "Productivity",
+    title: "Salesforce Builder",
+    description: "Salesforce Builder improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.salesforce-builder.ai"
+  },
+  {
+    id: 335,
+    category: "Sales & CRM",
+    title: "Intercom Planner",
+    description: "Intercom Planner helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.intercom-planner.ai"
+  },
+  {
+    id: 336,
+    category: "Marketing Automation",
+    title: "Airtable Flow",
+    description: "Airtable Flow helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.airtable-flow.ai"
+  },
+  {
+    id: 337,
+    category: "Search & Research",
+    title: "ClickUp Labs",
+    description: "ClickUp Labs accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.clickup-labs.ai"
+  },
+  {
+    id: 338,
+    category: "Education",
+    title: "Asana Platform",
+    description: "Asana Platform supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.asana-platform.ai"
+  },
+  {
+    id: 339,
+    category: "Design",
+    title: "Monday Insight",
+    description: "Monday Insight helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.monday-insight.ai"
+  },
+  {
+    id: 340,
+    category: "Automation",
+    title: "Figma Search",
+    description: "Figma Search automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.figma-search.ai"
+  },
+  {
+    id: 341,
+    category: "Data & Analytics",
+    title: "Framer Voice",
+    description: "Framer Voice converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.framer-voice.ai"
+  },
+  {
+    id: 342,
+    category: "AI Assistant",
+    title: "GitHub Video",
+    description: "GitHub Video is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.github-video.ai"
+  },
+  {
+    id: 343,
+    category: "Writing & Content",
+    title: "GitLab Image",
+    description: "GitLab Image helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.gitlab-image.ai"
+  },
+  {
+    id: 344,
+    category: "Developer Tools",
+    title: "JetBrains Agent",
+    description: "JetBrains Agent supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.jetbrains-agent.ai"
+  },
+  {
+    id: 345,
+    category: "Image Generation",
+    title: "Replit Composer",
+    description: "Replit Composer generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.replit-composer.ai"
+  },
+  {
+    id: 346,
+    category: "Video Generation",
+    title: "Vercel Editor",
+    description: "Vercel Editor turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.vercel-editor.ai"
+  },
+  {
+    id: 347,
+    category: "Speech & Audio",
+    title: "Databricks Automations",
+    description: "Databricks Automations offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.databricks-automations.ai"
+  },
+  {
+    id: 348,
+    category: "Productivity",
+    title: "Snowflake Signals",
+    description: "Snowflake Signals improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.snowflake-signals.ai"
+  },
+  {
+    id: 349,
+    category: "Sales & CRM",
+    title: "Scale Dashboard",
+    description: "Scale Dashboard helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.scale-dashboard.ai"
+  },
+  {
+    id: 350,
+    category: "Marketing Automation",
+    title: "Pinecone Toolkit",
+    description: "Pinecone Toolkit helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.pinecone-toolkit.ai"
+  },
+  {
+    id: 351,
+    category: "Search & Research",
+    title: "Weaviate Research",
+    description: "Weaviate Research accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.weaviate-research.ai"
+  },
+  {
+    id: 352,
+    category: "Education",
+    title: "LangChain Academy",
+    description: "LangChain Academy supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.langchain-academy.ai"
+  },
+  {
+    id: 353,
+    category: "Design",
+    title: "LlamaIndex Optimizer",
+    description: "LlamaIndex Optimizer helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.llamaindex-optimizer.ai"
+  },
+  {
+    id: 354,
+    category: "Automation",
+    title: "Weights & Biases Manager",
+    description: "Weights & Biases Manager automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.weights-biases-manager.ai"
+  },
+  {
+    id: 355,
+    category: "Data & Analytics",
+    title: "DataRobot Pipeline",
+    description: "DataRobot Pipeline converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.datarobot-pipeline.ai"
+  },
+  {
+    id: 356,
+    category: "AI Assistant",
+    title: "H2O Scribe",
+    description: "H2O Scribe is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.h2o-scribe.ai"
+  },
+  {
+    id: 357,
+    category: "Writing & Content",
+    title: "UiPath Studio",
+    description: "UiPath Studio helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.uipath-studio.ai"
+  },
+  {
+    id: 358,
+    category: "Developer Tools",
+    title: "Automation Anywhere Workspace",
+    description: "Automation Anywhere Workspace supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.automation-anywhere-workspace.ai"
+  },
+  {
+    id: 359,
+    category: "Image Generation",
+    title: "Zoom Engine",
+    description: "Zoom Engine generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.zoom-engine.ai"
+  },
+  {
+    id: 360,
+    category: "Video Generation",
+    title: "Slack Assistant",
+    description: "Slack Assistant turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.slack-assistant.ai"
+  },
+  {
+    id: 361,
+    category: "Speech & Audio",
+    title: "Dropbox Writer",
+    description: "Dropbox Writer offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.dropbox-writer.ai"
+  },
+  {
+    id: 362,
+    category: "Productivity",
+    title: "Box Generator",
+    description: "Box Generator improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.box-generator.ai"
+  },
+  {
+    id: 363,
+    category: "Sales & CRM",
+    title: "Otter Analyzer",
+    description: "Otter Analyzer helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.otter-analyzer.ai"
+  },
+  {
+    id: 364,
+    category: "Marketing Automation",
+    title: "Fireflies Builder",
+    description: "Fireflies Builder helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.fireflies-builder.ai"
+  },
+  {
+    id: 365,
+    category: "Search & Research",
+    title: "Loom Planner",
+    description: "Loom Planner accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.loom-planner.ai"
+  },
+  {
+    id: 366,
+    category: "Education",
+    title: "Tome Flow",
+    description: "Tome Flow supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.tome-flow.ai"
+  },
+  {
+    id: 367,
+    category: "Design",
+    title: "Gamma Labs",
+    description: "Gamma Labs helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.gamma-labs.ai"
+  },
+  {
+    id: 368,
+    category: "Automation",
+    title: "Beautiful Platform",
+    description: "Beautiful Platform automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.beautiful-platform.ai"
+  },
+  {
+    id: 369,
+    category: "Data & Analytics",
+    title: "Copy Insight",
+    description: "Copy Insight converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.copy-insight.ai"
+  },
+  {
+    id: 370,
+    category: "AI Assistant",
+    title: "Writesonic Search",
+    description: "Writesonic Search is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.writesonic-search.ai"
+  },
+  {
+    id: 371,
+    category: "Writing & Content",
+    title: "Anyword Voice",
+    description: "Anyword Voice helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.anyword-voice.ai"
+  },
+  {
+    id: 372,
+    category: "Developer Tools",
+    title: "Surfer Video",
+    description: "Surfer Video supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.surfer-video.ai"
+  },
+  {
+    id: 373,
+    category: "Image Generation",
+    title: "Semrush Image",
+    description: "Semrush Image generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.semrush-image.ai"
+  },
+  {
+    id: 374,
+    category: "Video Generation",
+    title: "Ahrefs Agent",
+    description: "Ahrefs Agent turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.ahrefs-agent.ai"
+  },
+  {
+    id: 375,
+    category: "Speech & Audio",
+    title: "Moz Composer",
+    description: "Moz Composer offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.moz-composer.ai"
+  },
+  {
+    id: 376,
+    category: "Productivity",
+    title: "Mailchimp Editor",
+    description: "Mailchimp Editor improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.mailchimp-editor.ai"
+  },
+  {
+    id: 377,
+    category: "Sales & CRM",
+    title: "Klaviyo Automations",
+    description: "Klaviyo Automations helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.klaviyo-automations.ai"
+  },
+  {
+    id: 378,
+    category: "Marketing Automation",
+    title: "Braze Signals",
+    description: "Braze Signals helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.braze-signals.ai"
+  },
+  {
+    id: 379,
+    category: "Search & Research",
+    title: "Amplitude Dashboard",
+    description: "Amplitude Dashboard accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.amplitude-dashboard.ai"
+  },
+  {
+    id: 380,
+    category: "Education",
+    title: "Mixpanel Toolkit",
+    description: "Mixpanel Toolkit supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.mixpanel-toolkit.ai"
+  },
+  {
+    id: 381,
+    category: "Design",
+    title: "Heap Research",
+    description: "Heap Research helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.heap-research.ai"
+  },
+  {
+    id: 382,
+    category: "Automation",
+    title: "Gong Academy",
+    description: "Gong Academy automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.gong-academy.ai"
+  },
+  {
+    id: 383,
+    category: "Data & Analytics",
+    title: "Clari Optimizer",
+    description: "Clari Optimizer converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.clari-optimizer.ai"
+  },
+  {
+    id: 384,
+    category: "AI Assistant",
+    title: "Outreach Manager",
+    description: "Outreach Manager is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.outreach-manager.ai"
+  },
+  {
+    id: 385,
+    category: "Writing & Content",
+    title: "Apollo Pipeline",
+    description: "Apollo Pipeline helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.apollo-pipeline.ai"
+  },
+  {
+    id: 386,
+    category: "Developer Tools",
+    title: "People Scribe",
+    description: "People Scribe supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.people-scribe.ai"
+  },
+  {
+    id: 387,
+    category: "Image Generation",
+    title: "Rippling Studio",
+    description: "Rippling Studio generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.rippling-studio.ai"
+  },
+  {
+    id: 388,
+    category: "Video Generation",
+    title: "Deel Workspace",
+    description: "Deel Workspace turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.deel-workspace.ai"
+  },
+  {
+    id: 389,
+    category: "Speech & Audio",
+    title: "Coursera Engine",
+    description: "Coursera Engine offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.coursera-engine.ai"
+  },
+  {
+    id: 390,
+    category: "Productivity",
+    title: "Khan Assistant",
+    description: "Khan Assistant improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.khan-assistant.ai"
+  },
+  {
+    id: 391,
+    category: "Sales & CRM",
+    title: "Duolingo Writer",
+    description: "Duolingo Writer helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.duolingo-writer.ai"
+  },
+  {
+    id: 392,
+    category: "Marketing Automation",
+    title: "Quizlet Generator",
+    description: "Quizlet Generator helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.quizlet-generator.ai"
+  },
+  {
+    id: 393,
+    category: "Search & Research",
+    title: "Miro Analyzer",
+    description: "Miro Analyzer accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.miro-analyzer.ai"
+  },
+  {
+    id: 394,
+    category: "Education",
+    title: "FigJam Builder",
+    description: "FigJam Builder supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.figjam-builder.ai"
+  },
+  {
+    id: 395,
+    category: "Design",
+    title: "Akkio Planner",
+    description: "Akkio Planner helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.akkio-planner.ai"
+  },
+  {
+    id: 396,
+    category: "Automation",
+    title: "MonkeyLearn Flow",
+    description: "MonkeyLearn Flow automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.monkeylearn-flow.ai"
+  },
+  {
+    id: 397,
+    category: "Data & Analytics",
+    title: "Qdrant Labs",
+    description: "Qdrant Labs converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.qdrant-labs.ai"
+  },
+  {
+    id: 398,
+    category: "AI Assistant",
+    title: "Milvus Platform",
+    description: "Milvus Platform is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.milvus-platform.ai"
+  },
+  {
+    id: 399,
+    category: "Writing & Content",
+    title: "Redis Insight",
+    description: "Redis Insight helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.redis-insight.ai"
+  },
+  {
+    id: 400,
+    category: "Developer Tools",
+    title: "Postman Search",
+    description: "Postman Search supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.postman-search.ai"
+  },
+  {
+    id: 401,
+    category: "Image Generation",
+    title: "Linear Voice",
+    description: "Linear Voice generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.linear-voice.ai"
+  },
+  {
+    id: 402,
+    category: "Video Generation",
+    title: "Coda Video",
+    description: "Coda Video turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.coda-video.ai"
+  },
+  {
+    id: 403,
+    category: "Speech & Audio",
+    title: "Adept Image",
+    description: "Adept Image offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.adept-image.ai"
+  },
+  {
+    id: 404,
+    category: "Productivity",
+    title: "Inflection Agent",
+    description: "Inflection Agent improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.inflection-agent.ai"
+  },
+  {
+    id: 405,
+    category: "Sales & CRM",
+    title: "Character Composer",
+    description: "Character Composer helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.character-composer.ai"
+  },
+  {
+    id: 406,
+    category: "Marketing Automation",
+    title: "You Editor",
+    description: "You Editor helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.you-editor.ai"
+  },
+  {
+    id: 407,
+    category: "Search & Research",
+    title: "Phind Automations",
+    description: "Phind Automations accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.phind-automations.ai"
+  },
+  {
+    id: 408,
+    category: "Education",
+    title: "Quora Signals",
+    description: "Quora Signals supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.quora-signals.ai"
+  },
+  {
+    id: 409,
+    category: "Design",
+    title: "Meta Dashboard",
+    description: "Meta Dashboard helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.meta-dashboard.ai"
+  },
+  {
+    id: 410,
+    category: "Automation",
+    title: "NVIDIA Toolkit",
+    description: "NVIDIA Toolkit automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.nvidia-toolkit.ai"
+  },
+  {
+    id: 411,
+    category: "Data & Analytics",
+    title: "IBM Research",
+    description: "IBM Research converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.ibm-research.ai"
+  },
+  {
+    id: 412,
+    category: "AI Assistant",
+    title: "Oracle Academy",
+    description: "Oracle Academy is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.oracle-academy.ai"
+  },
+  {
+    id: 413,
+    category: "Writing & Content",
+    title: "Palantir Optimizer",
+    description: "Palantir Optimizer helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.palantir-optimizer.ai"
+  },
+  {
+    id: 414,
+    category: "Developer Tools",
+    title: "CrowdStrike Manager",
+    description: "CrowdStrike Manager supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.crowdstrike-manager.ai"
+  },
+  {
+    id: 415,
+    category: "Image Generation",
+    title: "Cloudflare Pipeline",
+    description: "Cloudflare Pipeline generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.cloudflare-pipeline.ai"
+  },
+  {
+    id: 416,
+    category: "Video Generation",
+    title: "Anthropic Studio",
+    description: "Anthropic Studio turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.anthropic-studio.ai"
+  },
+  {
+    id: 417,
+    category: "Speech & Audio",
+    title: "OpenAI Workspace",
+    description: "OpenAI Workspace offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.openai-workspace.ai"
+  },
+  {
+    id: 418,
+    category: "Productivity",
+    title: "Google Engine",
+    description: "Google Engine improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.google-engine.ai"
+  },
+  {
+    id: 419,
+    category: "Sales & CRM",
+    title: "Microsoft Assistant",
+    description: "Microsoft Assistant helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.microsoft-assistant.ai"
+  },
+  {
+    id: 420,
+    category: "Marketing Automation",
+    title: "Adobe Writer",
+    description: "Adobe Writer helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.adobe-writer.ai"
+  },
+  {
+    id: 421,
+    category: "Search & Research",
+    title: "Notion Generator",
+    description: "Notion Generator accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.notion-generator.ai"
+  },
+  {
+    id: 422,
+    category: "Education",
+    title: "Perplexity Analyzer",
+    description: "Perplexity Analyzer supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.perplexity-analyzer.ai"
+  },
+  {
+    id: 423,
+    category: "Design",
+    title: "Canva Builder",
+    description: "Canva Builder helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.canva-builder.ai"
+  },
+  {
+    id: 424,
+    category: "Automation",
+    title: "Grammarly Planner",
+    description: "Grammarly Planner automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.grammarly-planner.ai"
+  },
+  {
+    id: 425,
+    category: "Data & Analytics",
+    title: "Jasper Flow",
+    description: "Jasper Flow converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.jasper-flow.ai"
+  },
+  {
+    id: 426,
+    category: "AI Assistant",
+    title: "Runway Labs",
+    description: "Runway Labs is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.runway-labs.ai"
+  },
+  {
+    id: 427,
+    category: "Writing & Content",
+    title: "Pika Platform",
+    description: "Pika Platform helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.pika-platform.ai"
+  },
+  {
+    id: 428,
+    category: "Developer Tools",
+    title: "Synthesia Insight",
+    description: "Synthesia Insight supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.synthesia-insight.ai"
+  },
+  {
+    id: 429,
+    category: "Image Generation",
+    title: "Descript Search",
+    description: "Descript Search generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.descript-search.ai"
+  },
+  {
+    id: 430,
+    category: "Video Generation",
+    title: "ElevenLabs Voice",
+    description: "ElevenLabs Voice turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.elevenlabs-voice.ai"
+  },
+  {
+    id: 431,
+    category: "Speech & Audio",
+    title: "Midjourney Video",
+    description: "Midjourney Video offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.midjourney-video.ai"
+  },
+  {
+    id: 432,
+    category: "Productivity",
+    title: "Stability Image",
+    description: "Stability Image improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.stability-image.ai"
+  },
+  {
+    id: 433,
+    category: "Sales & CRM",
+    title: "Hugging Face Agent",
+    description: "Hugging Face Agent helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.hugging-face-agent.ai"
+  },
+  {
+    id: 434,
+    category: "Marketing Automation",
+    title: "Mistral Composer",
+    description: "Mistral Composer helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.mistral-composer.ai"
+  },
+  {
+    id: 435,
+    category: "Search & Research",
+    title: "Cohere Editor",
+    description: "Cohere Editor accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.cohere-editor.ai"
+  },
+  {
+    id: 436,
+    category: "Education",
+    title: "Zapier Automations",
+    description: "Zapier Automations supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.zapier-automations.ai"
+  },
+  {
+    id: 437,
+    category: "Design",
+    title: "HubSpot Signals",
+    description: "HubSpot Signals helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.hubspot-signals.ai"
+  },
+  {
+    id: 438,
+    category: "Automation",
+    title: "Salesforce Dashboard",
+    description: "Salesforce Dashboard automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.salesforce-dashboard.ai"
+  },
+  {
+    id: 439,
+    category: "Data & Analytics",
+    title: "Intercom Toolkit",
+    description: "Intercom Toolkit converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.intercom-toolkit.ai"
+  },
+  {
+    id: 440,
+    category: "AI Assistant",
+    title: "Airtable Research",
+    description: "Airtable Research is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.airtable-research.ai"
+  },
+  {
+    id: 441,
+    category: "Writing & Content",
+    title: "ClickUp Academy",
+    description: "ClickUp Academy helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.clickup-academy.ai"
+  },
+  {
+    id: 442,
+    category: "Developer Tools",
+    title: "Asana Optimizer",
+    description: "Asana Optimizer supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.asana-optimizer.ai"
+  },
+  {
+    id: 443,
+    category: "Image Generation",
+    title: "Monday Manager",
+    description: "Monday Manager generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.monday-manager.ai"
+  },
+  {
+    id: 444,
+    category: "Video Generation",
+    title: "Figma Pipeline",
+    description: "Figma Pipeline turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.figma-pipeline.ai"
+  },
+  {
+    id: 445,
+    category: "Speech & Audio",
+    title: "Framer Scribe",
+    description: "Framer Scribe offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.framer-scribe.ai"
+  },
+  {
+    id: 446,
+    category: "Productivity",
+    title: "GitHub Studio",
+    description: "GitHub Studio improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.github-studio.ai"
+  },
+  {
+    id: 447,
+    category: "Sales & CRM",
+    title: "GitLab Workspace",
+    description: "GitLab Workspace helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.gitlab-workspace.ai"
+  },
+  {
+    id: 448,
+    category: "Marketing Automation",
+    title: "JetBrains Engine",
+    description: "JetBrains Engine helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.jetbrains-engine.ai"
+  },
+  {
+    id: 449,
+    category: "Search & Research",
+    title: "Replit Assistant",
+    description: "Replit Assistant accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.replit-assistant.ai"
+  },
+  {
+    id: 450,
+    category: "Education",
+    title: "Vercel Writer",
+    description: "Vercel Writer supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.vercel-writer.ai"
+  },
+  {
+    id: 451,
+    category: "Design",
+    title: "Databricks Generator",
+    description: "Databricks Generator helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.databricks-generator.ai"
+  },
+  {
+    id: 452,
+    category: "Automation",
+    title: "Snowflake Analyzer",
+    description: "Snowflake Analyzer automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.snowflake-analyzer.ai"
+  },
+  {
+    id: 453,
+    category: "Data & Analytics",
+    title: "Scale Builder",
+    description: "Scale Builder converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.scale-builder.ai"
+  },
+  {
+    id: 454,
+    category: "AI Assistant",
+    title: "Pinecone Planner",
+    description: "Pinecone Planner is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.pinecone-planner.ai"
+  },
+  {
+    id: 455,
+    category: "Writing & Content",
+    title: "Weaviate Flow",
+    description: "Weaviate Flow helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.weaviate-flow.ai"
+  },
+  {
+    id: 456,
+    category: "Developer Tools",
+    title: "LangChain Labs",
+    description: "LangChain Labs supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.langchain-labs.ai"
+  },
+  {
+    id: 457,
+    category: "Image Generation",
+    title: "LlamaIndex Platform",
+    description: "LlamaIndex Platform generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.llamaindex-platform.ai"
+  },
+  {
+    id: 458,
+    category: "Video Generation",
+    title: "Weights & Biases Insight",
+    description: "Weights & Biases Insight turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.weights-biases-insight.ai"
+  },
+  {
+    id: 459,
+    category: "Speech & Audio",
+    title: "DataRobot Search",
+    description: "DataRobot Search offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.datarobot-search.ai"
+  },
+  {
+    id: 460,
+    category: "Productivity",
+    title: "H2O Voice",
+    description: "H2O Voice improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.h2o-voice.ai"
+  },
+  {
+    id: 461,
+    category: "Sales & CRM",
+    title: "UiPath Video",
+    description: "UiPath Video helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.uipath-video.ai"
+  },
+  {
+    id: 462,
+    category: "Marketing Automation",
+    title: "Automation Anywhere Image",
+    description: "Automation Anywhere Image helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.automation-anywhere-image.ai"
+  },
+  {
+    id: 463,
+    category: "Search & Research",
+    title: "Zoom Agent",
+    description: "Zoom Agent accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.zoom-agent.ai"
+  },
+  {
+    id: 464,
+    category: "Education",
+    title: "Slack Composer",
+    description: "Slack Composer supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.slack-composer.ai"
+  },
+  {
+    id: 465,
+    category: "Design",
+    title: "Dropbox Editor",
+    description: "Dropbox Editor helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.dropbox-editor.ai"
+  },
+  {
+    id: 466,
+    category: "Automation",
+    title: "Box Automations",
+    description: "Box Automations automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.box-automations.ai"
+  },
+  {
+    id: 467,
+    category: "Data & Analytics",
+    title: "Otter Signals",
+    description: "Otter Signals converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.otter-signals.ai"
+  },
+  {
+    id: 468,
+    category: "AI Assistant",
+    title: "Fireflies Dashboard",
+    description: "Fireflies Dashboard is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.fireflies-dashboard.ai"
+  },
+  {
+    id: 469,
+    category: "Writing & Content",
+    title: "Loom Toolkit",
+    description: "Loom Toolkit helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.loom-toolkit.ai"
+  },
+  {
+    id: 470,
+    category: "Developer Tools",
+    title: "Tome Research",
+    description: "Tome Research supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.tome-research.ai"
+  },
+  {
+    id: 471,
+    category: "Image Generation",
+    title: "Gamma Academy",
+    description: "Gamma Academy generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.gamma-academy.ai"
+  },
+  {
+    id: 472,
+    category: "Video Generation",
+    title: "Beautiful Optimizer",
+    description: "Beautiful Optimizer turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.beautiful-optimizer.ai"
+  },
+  {
+    id: 473,
+    category: "Speech & Audio",
+    title: "Copy Manager",
+    description: "Copy Manager offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.copy-manager.ai"
+  },
+  {
+    id: 474,
+    category: "Productivity",
+    title: "Writesonic Pipeline",
+    description: "Writesonic Pipeline improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.writesonic-pipeline.ai"
+  },
+  {
+    id: 475,
+    category: "Sales & CRM",
+    title: "Anyword Scribe",
+    description: "Anyword Scribe helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.anyword-scribe.ai"
+  },
+  {
+    id: 476,
+    category: "Marketing Automation",
+    title: "Surfer Studio",
+    description: "Surfer Studio helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.surfer-studio.ai"
+  },
+  {
+    id: 477,
+    category: "Search & Research",
+    title: "Semrush Workspace",
+    description: "Semrush Workspace accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.semrush-workspace.ai"
+  },
+  {
+    id: 478,
+    category: "Education",
+    title: "Ahrefs Engine",
+    description: "Ahrefs Engine supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.ahrefs-engine.ai"
+  },
+  {
+    id: 479,
+    category: "Design",
+    title: "Moz Assistant",
+    description: "Moz Assistant helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.moz-assistant.ai"
+  },
+  {
+    id: 480,
+    category: "Automation",
+    title: "Mailchimp Writer",
+    description: "Mailchimp Writer automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.mailchimp-writer.ai"
+  },
+  {
+    id: 481,
+    category: "Data & Analytics",
+    title: "Klaviyo Generator",
+    description: "Klaviyo Generator converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.klaviyo-generator.ai"
+  },
+  {
+    id: 482,
+    category: "AI Assistant",
+    title: "Braze Analyzer",
+    description: "Braze Analyzer is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.braze-analyzer.ai"
+  },
+  {
+    id: 483,
+    category: "Writing & Content",
+    title: "Amplitude Builder",
+    description: "Amplitude Builder helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.amplitude-builder.ai"
+  },
+  {
+    id: 484,
+    category: "Developer Tools",
+    title: "Mixpanel Planner",
+    description: "Mixpanel Planner supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.mixpanel-planner.ai"
+  },
+  {
+    id: 485,
+    category: "Image Generation",
+    title: "Heap Flow",
+    description: "Heap Flow generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.heap-flow.ai"
+  },
+  {
+    id: 486,
+    category: "Video Generation",
+    title: "Gong Labs",
+    description: "Gong Labs turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.gong-labs.ai"
+  },
+  {
+    id: 487,
+    category: "Speech & Audio",
+    title: "Clari Platform",
+    description: "Clari Platform offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.clari-platform.ai"
+  },
+  {
+    id: 488,
+    category: "Productivity",
+    title: "Outreach Insight",
+    description: "Outreach Insight improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.outreach-insight.ai"
+  },
+  {
+    id: 489,
+    category: "Sales & CRM",
+    title: "Apollo Search",
+    description: "Apollo Search helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.apollo-search.ai"
+  },
+  {
+    id: 490,
+    category: "Marketing Automation",
+    title: "People Voice",
+    description: "People Voice helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.people-voice.ai"
+  },
+  {
+    id: 491,
+    category: "Search & Research",
+    title: "Rippling Video",
+    description: "Rippling Video accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.rippling-video.ai"
+  },
+  {
+    id: 492,
+    category: "Education",
+    title: "Deel Image",
+    description: "Deel Image supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.deel-image.ai"
+  },
+  {
+    id: 493,
+    category: "Design",
+    title: "Coursera Agent",
+    description: "Coursera Agent helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.coursera-agent.ai"
+  },
+  {
+    id: 494,
+    category: "Automation",
+    title: "Khan Composer",
+    description: "Khan Composer automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.khan-composer.ai"
+  },
+  {
+    id: 495,
+    category: "Data & Analytics",
+    title: "Duolingo Editor",
+    description: "Duolingo Editor converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.duolingo-editor.ai"
+  },
+  {
+    id: 496,
+    category: "AI Assistant",
+    title: "Quizlet Automations",
+    description: "Quizlet Automations is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.quizlet-automations.ai"
+  },
+  {
+    id: 497,
+    category: "Writing & Content",
+    title: "Miro Signals",
+    description: "Miro Signals helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.miro-signals.ai"
+  },
+  {
+    id: 498,
+    category: "Developer Tools",
+    title: "FigJam Dashboard",
+    description: "FigJam Dashboard supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.figjam-dashboard.ai"
+  },
+  {
+    id: 499,
+    category: "Image Generation",
+    title: "Akkio Toolkit",
+    description: "Akkio Toolkit generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.akkio-toolkit.ai"
+  },
+  {
+    id: 500,
+    category: "Video Generation",
+    title: "MonkeyLearn Research",
+    description: "MonkeyLearn Research turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.monkeylearn-research.ai"
+  },
+  {
+    id: 501,
+    category: "Speech & Audio",
+    title: "Qdrant Academy",
+    description: "Qdrant Academy offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.qdrant-academy.ai"
+  },
+  {
+    id: 502,
+    category: "Productivity",
+    title: "Milvus Optimizer",
+    description: "Milvus Optimizer improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.milvus-optimizer.ai"
+  },
+  {
+    id: 503,
+    category: "Sales & CRM",
+    title: "Redis Manager",
+    description: "Redis Manager helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.redis-manager.ai"
+  },
+  {
+    id: 504,
+    category: "Marketing Automation",
+    title: "Postman Pipeline",
+    description: "Postman Pipeline helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.postman-pipeline.ai"
+  },
+  {
+    id: 505,
+    category: "Search & Research",
+    title: "Linear Scribe",
+    description: "Linear Scribe accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.linear-scribe.ai"
+  },
+  {
+    id: 506,
+    category: "Education",
+    title: "Coda Studio",
+    description: "Coda Studio supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.coda-studio.ai"
+  },
+  {
+    id: 507,
+    category: "Design",
+    title: "Adept Workspace",
+    description: "Adept Workspace helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.adept-workspace.ai"
+  },
+  {
+    id: 508,
+    category: "Automation",
+    title: "IBM Assistant",
+    description: "IBM Assistant automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.ibm-assistant.ai"
+  },
+  {
+    id: 509,
+    category: "Data & Analytics",
+    title: "Oracle Writer",
+    description: "Oracle Writer converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.oracle-writer.ai"
+  },
+  {
+    id: 510,
+    category: "AI Assistant",
+    title: "Palantir Generator",
+    description: "Palantir Generator is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.palantir-generator.ai"
+  },
+  {
+    id: 511,
+    category: "Writing & Content",
+    title: "CrowdStrike Analyzer",
+    description: "CrowdStrike Analyzer helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.crowdstrike-analyzer.ai"
+  },
+  {
+    id: 512,
+    category: "Developer Tools",
+    title: "Cloudflare Builder",
+    description: "Cloudflare Builder supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.cloudflare-builder.ai"
+  },
+  {
+    id: 513,
+    category: "Image Generation",
+    title: "Anthropic Planner",
+    description: "Anthropic Planner generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.anthropic-planner.ai"
+  },
+  {
+    id: 514,
+    category: "Video Generation",
+    title: "OpenAI Flow",
+    description: "OpenAI Flow turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.openai-flow.ai"
+  },
+  {
+    id: 515,
+    category: "Speech & Audio",
+    title: "Google Labs",
+    description: "Google Labs offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.google-labs.ai"
+  },
+  {
+    id: 516,
+    category: "Productivity",
+    title: "Microsoft Platform",
+    description: "Microsoft Platform improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.microsoft-platform.ai"
+  },
+  {
+    id: 517,
+    category: "Sales & CRM",
+    title: "Adobe Insight",
+    description: "Adobe Insight helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.adobe-insight.ai"
+  },
+  {
+    id: 518,
+    category: "Marketing Automation",
+    title: "Notion Search",
+    description: "Notion Search helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.notion-search.ai"
+  },
+  {
+    id: 519,
+    category: "Search & Research",
+    title: "Perplexity Video",
+    description: "Perplexity Video accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.perplexity-video.ai"
+  },
+  {
+    id: 520,
+    category: "Education",
+    title: "Canva Image",
+    description: "Canva Image supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.canva-image.ai"
+  },
+  {
+    id: 521,
+    category: "Design",
+    title: "Grammarly Agent",
+    description: "Grammarly Agent helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.grammarly-agent.ai"
+  },
+  {
+    id: 522,
+    category: "Automation",
+    title: "Jasper Composer",
+    description: "Jasper Composer automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.jasper-composer.ai"
+  },
+  {
+    id: 523,
+    category: "Data & Analytics",
+    title: "Runway Editor",
+    description: "Runway Editor converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.runway-editor.ai"
+  },
+  {
+    id: 524,
+    category: "AI Assistant",
+    title: "Pika Automations",
+    description: "Pika Automations is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.pika-automations.ai"
+  },
+  {
+    id: 525,
+    category: "Writing & Content",
+    title: "Synthesia Signals",
+    description: "Synthesia Signals helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.synthesia-signals.ai"
+  },
+  {
+    id: 526,
+    category: "Developer Tools",
+    title: "Descript Dashboard",
+    description: "Descript Dashboard supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.descript-dashboard.ai"
+  },
+  {
+    id: 527,
+    category: "Image Generation",
+    title: "ElevenLabs Toolkit",
+    description: "ElevenLabs Toolkit generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.elevenlabs-toolkit.ai"
+  },
+  {
+    id: 528,
+    category: "Video Generation",
+    title: "Midjourney Research",
+    description: "Midjourney Research turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.midjourney-research.ai"
+  },
+  {
+    id: 529,
+    category: "Speech & Audio",
+    title: "Stability Academy",
+    description: "Stability Academy offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.stability-academy.ai"
+  },
+  {
+    id: 530,
+    category: "Productivity",
+    title: "Hugging Face Optimizer",
+    description: "Hugging Face Optimizer improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.hugging-face-optimizer.ai"
+  },
+  {
+    id: 531,
+    category: "Sales & CRM",
+    title: "Mistral Manager",
+    description: "Mistral Manager helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.mistral-manager.ai"
+  },
+  {
+    id: 532,
+    category: "Marketing Automation",
+    title: "Cohere Pipeline",
+    description: "Cohere Pipeline helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.cohere-pipeline.ai"
+  },
+  {
+    id: 533,
+    category: "Search & Research",
+    title: "Zapier Scribe",
+    description: "Zapier Scribe accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.zapier-scribe.ai"
+  },
+  {
+    id: 534,
+    category: "Education",
+    title: "HubSpot Studio",
+    description: "HubSpot Studio supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.hubspot-studio.ai"
+  },
+  {
+    id: 535,
+    category: "Design",
+    title: "Salesforce Workspace",
+    description: "Salesforce Workspace helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.salesforce-workspace.ai"
+  },
+  {
+    id: 536,
+    category: "Automation",
+    title: "Intercom Engine",
+    description: "Intercom Engine automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.intercom-engine.ai"
+  },
+  {
+    id: 537,
+    category: "Data & Analytics",
+    title: "Airtable Assistant",
+    description: "Airtable Assistant converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.airtable-assistant.ai"
+  },
+  {
+    id: 538,
+    category: "AI Assistant",
+    title: "ClickUp Writer",
+    description: "ClickUp Writer is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.clickup-writer.ai"
+  },
+  {
+    id: 539,
+    category: "Writing & Content",
+    title: "Asana Generator",
+    description: "Asana Generator helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.asana-generator.ai"
+  },
+  {
+    id: 540,
+    category: "Developer Tools",
+    title: "Monday Analyzer",
+    description: "Monday Analyzer supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.monday-analyzer.ai"
+  },
+  {
+    id: 541,
+    category: "Image Generation",
+    title: "Figma Builder",
+    description: "Figma Builder generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.figma-builder.ai"
+  },
+  {
+    id: 542,
+    category: "Video Generation",
+    title: "Framer Planner",
+    description: "Framer Planner turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.framer-planner.ai"
+  },
+  {
+    id: 543,
+    category: "Speech & Audio",
+    title: "GitHub Flow",
+    description: "GitHub Flow offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.github-flow.ai"
+  },
+  {
+    id: 544,
+    category: "Productivity",
+    title: "GitLab Labs",
+    description: "GitLab Labs improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.gitlab-labs.ai"
+  },
+  {
+    id: 545,
+    category: "Sales & CRM",
+    title: "JetBrains Platform",
+    description: "JetBrains Platform helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.jetbrains-platform.ai"
+  },
+  {
+    id: 546,
+    category: "Marketing Automation",
+    title: "Replit Insight",
+    description: "Replit Insight helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.replit-insight.ai"
+  },
+  {
+    id: 547,
+    category: "Search & Research",
+    title: "Vercel Search",
+    description: "Vercel Search accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.vercel-search.ai"
+  },
+  {
+    id: 548,
+    category: "Education",
+    title: "Databricks Voice",
+    description: "Databricks Voice supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.databricks-voice.ai"
+  },
+  {
+    id: 549,
+    category: "Design",
+    title: "Snowflake Video",
+    description: "Snowflake Video helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.snowflake-video.ai"
+  },
+  {
+    id: 550,
+    category: "Automation",
+    title: "Scale Image",
+    description: "Scale Image automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.scale-image.ai"
+  },
+  {
+    id: 551,
+    category: "Data & Analytics",
+    title: "Pinecone Agent",
+    description: "Pinecone Agent converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.pinecone-agent.ai"
+  },
+  {
+    id: 552,
+    category: "AI Assistant",
+    title: "Weaviate Composer",
+    description: "Weaviate Composer is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.weaviate-composer.ai"
+  },
+  {
+    id: 553,
+    category: "Writing & Content",
+    title: "LangChain Editor",
+    description: "LangChain Editor helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.langchain-editor.ai"
+  },
+  {
+    id: 554,
+    category: "Developer Tools",
+    title: "LlamaIndex Automations",
+    description: "LlamaIndex Automations supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.llamaindex-automations.ai"
+  },
+  {
+    id: 555,
+    category: "Image Generation",
+    title: "Weights & Biases Signals",
+    description: "Weights & Biases Signals generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.weights-biases-signals.ai"
+  },
+  {
+    id: 556,
+    category: "Video Generation",
+    title: "DataRobot Dashboard",
+    description: "DataRobot Dashboard turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.datarobot-dashboard.ai"
+  },
+  {
+    id: 557,
+    category: "Speech & Audio",
+    title: "H2O Toolkit",
+    description: "H2O Toolkit offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.h2o-toolkit.ai"
+  },
+  {
+    id: 558,
+    category: "Productivity",
+    title: "UiPath Research",
+    description: "UiPath Research improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.uipath-research.ai"
+  },
+  {
+    id: 559,
+    category: "Sales & CRM",
+    title: "Automation Anywhere Academy",
+    description: "Automation Anywhere Academy helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.automation-anywhere-academy.ai"
+  },
+  {
+    id: 560,
+    category: "Marketing Automation",
+    title: "Zoom Optimizer",
+    description: "Zoom Optimizer helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.zoom-optimizer.ai"
+  },
+  {
+    id: 561,
+    category: "Search & Research",
+    title: "Slack Manager",
+    description: "Slack Manager accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.slack-manager.ai"
+  },
+  {
+    id: 562,
+    category: "Education",
+    title: "Dropbox Pipeline",
+    description: "Dropbox Pipeline supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.dropbox-pipeline.ai"
+  },
+  {
+    id: 563,
+    category: "Design",
+    title: "Box Scribe",
+    description: "Box Scribe helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.box-scribe.ai"
+  },
+  {
+    id: 564,
+    category: "Automation",
+    title: "Otter Studio",
+    description: "Otter Studio automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.otter-studio.ai"
+  },
+  {
+    id: 565,
+    category: "Data & Analytics",
+    title: "Fireflies Workspace",
+    description: "Fireflies Workspace converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.fireflies-workspace.ai"
+  },
+  {
+    id: 566,
+    category: "AI Assistant",
+    title: "Loom Engine",
+    description: "Loom Engine is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.loom-engine.ai"
+  },
+  {
+    id: 567,
+    category: "Writing & Content",
+    title: "Tome Assistant",
+    description: "Tome Assistant helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.tome-assistant.ai"
+  },
+  {
+    id: 568,
+    category: "Developer Tools",
+    title: "Gamma Writer",
+    description: "Gamma Writer supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.gamma-writer.ai"
+  },
+  {
+    id: 569,
+    category: "Image Generation",
+    title: "Beautiful Generator",
+    description: "Beautiful Generator generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.beautiful-generator.ai"
+  },
+  {
+    id: 570,
+    category: "Video Generation",
+    title: "Copy Analyzer",
+    description: "Copy Analyzer turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.copy-analyzer.ai"
+  },
+  {
+    id: 571,
+    category: "Speech & Audio",
+    title: "Writesonic Builder",
+    description: "Writesonic Builder offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.writesonic-builder.ai"
+  },
+  {
+    id: 572,
+    category: "Productivity",
+    title: "Anyword Planner",
+    description: "Anyword Planner improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.anyword-planner.ai"
+  },
+  {
+    id: 573,
+    category: "Sales & CRM",
+    title: "Surfer Flow",
+    description: "Surfer Flow helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.surfer-flow.ai"
+  },
+  {
+    id: 574,
+    category: "Marketing Automation",
+    title: "Semrush Labs",
+    description: "Semrush Labs helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.semrush-labs.ai"
+  },
+  {
+    id: 575,
+    category: "Search & Research",
+    title: "Ahrefs Platform",
+    description: "Ahrefs Platform accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.ahrefs-platform.ai"
+  },
+  {
+    id: 576,
+    category: "Education",
+    title: "Moz Insight",
+    description: "Moz Insight supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.moz-insight.ai"
+  },
+  {
+    id: 577,
+    category: "Design",
+    title: "Mailchimp Search",
+    description: "Mailchimp Search helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.mailchimp-search.ai"
+  },
+  {
+    id: 578,
+    category: "Automation",
+    title: "Klaviyo Voice",
+    description: "Klaviyo Voice automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.klaviyo-voice.ai"
+  },
+  {
+    id: 579,
+    category: "Data & Analytics",
+    title: "Braze Video",
+    description: "Braze Video converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.braze-video.ai"
+  },
+  {
+    id: 580,
+    category: "AI Assistant",
+    title: "Amplitude Image",
+    description: "Amplitude Image is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.amplitude-image.ai"
+  },
+  {
+    id: 581,
+    category: "Writing & Content",
+    title: "Mixpanel Agent",
+    description: "Mixpanel Agent helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.mixpanel-agent.ai"
+  },
+  {
+    id: 582,
+    category: "Developer Tools",
+    title: "Heap Composer",
+    description: "Heap Composer supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.heap-composer.ai"
+  },
+  {
+    id: 583,
+    category: "Image Generation",
+    title: "Gong Editor",
+    description: "Gong Editor generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.gong-editor.ai"
+  },
+  {
+    id: 584,
+    category: "Video Generation",
+    title: "Clari Automations",
+    description: "Clari Automations turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.clari-automations.ai"
+  },
+  {
+    id: 585,
+    category: "Speech & Audio",
+    title: "Outreach Signals",
+    description: "Outreach Signals offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.outreach-signals.ai"
+  },
+  {
+    id: 586,
+    category: "Productivity",
+    title: "Apollo Dashboard",
+    description: "Apollo Dashboard improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.apollo-dashboard.ai"
+  },
+  {
+    id: 587,
+    category: "Sales & CRM",
+    title: "People Toolkit",
+    description: "People Toolkit helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.people-toolkit.ai"
+  },
+  {
+    id: 588,
+    category: "Marketing Automation",
+    title: "Rippling Research",
+    description: "Rippling Research helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.rippling-research.ai"
+  },
+  {
+    id: 589,
+    category: "Search & Research",
+    title: "Deel Academy",
+    description: "Deel Academy accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.deel-academy.ai"
+  },
+  {
+    id: 590,
+    category: "Education",
+    title: "Coursera Optimizer",
+    description: "Coursera Optimizer supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.coursera-optimizer.ai"
+  },
+  {
+    id: 591,
+    category: "Design",
+    title: "Khan Manager",
+    description: "Khan Manager helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.khan-manager.ai"
+  },
+  {
+    id: 592,
+    category: "Automation",
+    title: "Duolingo Pipeline",
+    description: "Duolingo Pipeline automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.duolingo-pipeline.ai"
+  },
+  {
+    id: 593,
+    category: "Data & Analytics",
+    title: "Quizlet Scribe",
+    description: "Quizlet Scribe converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.quizlet-scribe.ai"
+  },
+  {
+    id: 594,
+    category: "AI Assistant",
+    title: "Miro Studio",
+    description: "Miro Studio is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.miro-studio.ai"
+  },
+  {
+    id: 595,
+    category: "Writing & Content",
+    title: "FigJam Workspace",
+    description: "FigJam Workspace helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.figjam-workspace.ai"
+  },
+  {
+    id: 596,
+    category: "Developer Tools",
+    title: "Akkio Engine",
+    description: "Akkio Engine supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.akkio-engine.ai"
+  },
+  {
+    id: 597,
+    category: "Image Generation",
+    title: "MonkeyLearn Assistant",
+    description: "MonkeyLearn Assistant generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.monkeylearn-assistant.ai"
+  },
+  {
+    id: 598,
+    category: "Video Generation",
+    title: "Qdrant Writer",
+    description: "Qdrant Writer turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.qdrant-writer.ai"
+  },
+  {
+    id: 599,
+    category: "Speech & Audio",
+    title: "Milvus Generator",
+    description: "Milvus Generator offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.milvus-generator.ai"
+  },
+  {
+    id: 600,
+    category: "Productivity",
+    title: "Redis Analyzer",
+    description: "Redis Analyzer improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.redis-analyzer.ai"
+  },
+  {
+    id: 601,
+    category: "Sales & CRM",
+    title: "Postman Builder",
+    description: "Postman Builder helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.postman-builder.ai"
+  },
+  {
+    id: 602,
+    category: "Marketing Automation",
+    title: "Linear Planner",
+    description: "Linear Planner helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.linear-planner.ai"
+  },
+  {
+    id: 603,
+    category: "Search & Research",
+    title: "Coda Flow",
+    description: "Coda Flow accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.coda-flow.ai"
+  },
+  {
+    id: 604,
+    category: "Education",
+    title: "Adept Labs",
+    description: "Adept Labs supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.adept-labs.ai"
+  },
+  {
+    id: 605,
+    category: "Design",
+    title: "Inflection Platform",
+    description: "Inflection Platform helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.inflection-platform.ai"
+  },
+  {
+    id: 606,
+    category: "Automation",
+    title: "Character Insight",
+    description: "Character Insight automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.character-insight.ai"
+  },
+  {
+    id: 607,
+    category: "Data & Analytics",
+    title: "You Search",
+    description: "You Search converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.you-search.ai"
+  },
+  {
+    id: 608,
+    category: "AI Assistant",
+    title: "Phind Voice",
+    description: "Phind Voice is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.phind-voice.ai"
+  },
+  {
+    id: 609,
+    category: "Writing & Content",
+    title: "Quora Video",
+    description: "Quora Video helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.quora-video.ai"
+  },
+  {
+    id: 610,
+    category: "Developer Tools",
+    title: "Meta Image",
+    description: "Meta Image supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.meta-image.ai"
+  },
+  {
+    id: 611,
+    category: "Image Generation",
+    title: "NVIDIA Agent",
+    description: "NVIDIA Agent generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.nvidia-agent.ai"
+  },
+  {
+    id: 612,
+    category: "Video Generation",
+    title: "IBM Composer",
+    description: "IBM Composer turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.ibm-composer.ai"
+  },
+  {
+    id: 613,
+    category: "Speech & Audio",
+    title: "Oracle Editor",
+    description: "Oracle Editor offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.oracle-editor.ai"
+  },
+  {
+    id: 614,
+    category: "Productivity",
+    title: "Palantir Automations",
+    description: "Palantir Automations improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.palantir-automations.ai"
+  },
+  {
+    id: 615,
+    category: "Sales & CRM",
+    title: "CrowdStrike Signals",
+    description: "CrowdStrike Signals helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.crowdstrike-signals.ai"
+  },
+  {
+    id: 616,
+    category: "Marketing Automation",
+    title: "Cloudflare Dashboard",
+    description: "Cloudflare Dashboard helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.cloudflare-dashboard.ai"
+  },
+  {
+    id: 617,
+    category: "Search & Research",
+    title: "Anthropic Toolkit",
+    description: "Anthropic Toolkit accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.anthropic-toolkit.ai"
+  },
+  {
+    id: 618,
+    category: "Education",
+    title: "OpenAI Research",
+    description: "OpenAI Research supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.openai-research.ai"
+  },
+  {
+    id: 619,
+    category: "Design",
+    title: "Google Academy",
+    description: "Google Academy helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.google-academy.ai"
+  },
+  {
+    id: 620,
+    category: "Automation",
+    title: "Microsoft Optimizer",
+    description: "Microsoft Optimizer automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.microsoft-optimizer.ai"
+  },
+  {
+    id: 621,
+    category: "Data & Analytics",
+    title: "Adobe Manager",
+    description: "Adobe Manager converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.adobe-manager.ai"
+  },
+  {
+    id: 622,
+    category: "AI Assistant",
+    title: "Notion Pipeline",
+    description: "Notion Pipeline is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.notion-pipeline.ai"
+  },
+  {
+    id: 623,
+    category: "Writing & Content",
+    title: "Perplexity Studio",
+    description: "Perplexity Studio helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.perplexity-studio.ai"
+  },
+  {
+    id: 624,
+    category: "Developer Tools",
+    title: "Canva Workspace",
+    description: "Canva Workspace supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.canva-workspace.ai"
+  },
+  {
+    id: 625,
+    category: "Image Generation",
+    title: "Grammarly Engine",
+    description: "Grammarly Engine generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.grammarly-engine.ai"
+  },
+  {
+    id: 626,
+    category: "Video Generation",
+    title: "Jasper Assistant",
+    description: "Jasper Assistant turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.jasper-assistant.ai"
+  },
+  {
+    id: 627,
+    category: "Speech & Audio",
+    title: "Runway Writer",
+    description: "Runway Writer offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.runway-writer.ai"
+  },
+  {
+    id: 628,
+    category: "Productivity",
+    title: "Pika Generator",
+    description: "Pika Generator improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.pika-generator.ai"
+  },
+  {
+    id: 629,
+    category: "Sales & CRM",
+    title: "Synthesia Analyzer",
+    description: "Synthesia Analyzer helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.synthesia-analyzer.ai"
+  },
+  {
+    id: 630,
+    category: "Marketing Automation",
+    title: "Descript Builder",
+    description: "Descript Builder helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.descript-builder.ai"
+  },
+  {
+    id: 631,
+    category: "Search & Research",
+    title: "ElevenLabs Planner",
+    description: "ElevenLabs Planner accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.elevenlabs-planner.ai"
+  },
+  {
+    id: 632,
+    category: "Education",
+    title: "Midjourney Flow",
+    description: "Midjourney Flow supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.midjourney-flow.ai"
+  },
+  {
+    id: 633,
+    category: "Design",
+    title: "Stability Labs",
+    description: "Stability Labs helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.stability-labs.ai"
+  },
+  {
+    id: 634,
+    category: "Automation",
+    title: "Hugging Face Platform",
+    description: "Hugging Face Platform automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.hugging-face-platform.ai"
+  },
+  {
+    id: 635,
+    category: "Data & Analytics",
+    title: "Mistral Insight",
+    description: "Mistral Insight converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.mistral-insight.ai"
+  },
+  {
+    id: 636,
+    category: "AI Assistant",
+    title: "Cohere Search",
+    description: "Cohere Search is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.cohere-search.ai"
+  },
+  {
+    id: 637,
+    category: "Writing & Content",
+    title: "Zapier Voice",
+    description: "Zapier Voice helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.zapier-voice.ai"
+  },
+  {
+    id: 638,
+    category: "Developer Tools",
+    title: "HubSpot Video",
+    description: "HubSpot Video supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.hubspot-video.ai"
+  },
+  {
+    id: 639,
+    category: "Image Generation",
+    title: "Salesforce Image",
+    description: "Salesforce Image generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.salesforce-image.ai"
+  },
+  {
+    id: 640,
+    category: "Video Generation",
+    title: "Intercom Agent",
+    description: "Intercom Agent turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.intercom-agent.ai"
+  },
+  {
+    id: 641,
+    category: "Speech & Audio",
+    title: "Airtable Composer",
+    description: "Airtable Composer offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.airtable-composer.ai"
+  },
+  {
+    id: 642,
+    category: "Productivity",
+    title: "ClickUp Editor",
+    description: "ClickUp Editor improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.clickup-editor.ai"
+  },
+  {
+    id: 643,
+    category: "Sales & CRM",
+    title: "Asana Automations",
+    description: "Asana Automations helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.asana-automations.ai"
+  },
+  {
+    id: 644,
+    category: "Marketing Automation",
+    title: "Monday Signals",
+    description: "Monday Signals helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.monday-signals.ai"
+  },
+  {
+    id: 645,
+    category: "Search & Research",
+    title: "Figma Dashboard",
+    description: "Figma Dashboard accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.figma-dashboard.ai"
+  },
+  {
+    id: 646,
+    category: "Education",
+    title: "Framer Toolkit",
+    description: "Framer Toolkit supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.framer-toolkit.ai"
+  },
+  {
+    id: 647,
+    category: "Design",
+    title: "GitHub Research",
+    description: "GitHub Research helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.github-research.ai"
+  },
+  {
+    id: 648,
+    category: "Automation",
+    title: "GitLab Academy",
+    description: "GitLab Academy automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.gitlab-academy.ai"
+  },
+  {
+    id: 649,
+    category: "Data & Analytics",
+    title: "JetBrains Optimizer",
+    description: "JetBrains Optimizer converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.jetbrains-optimizer.ai"
+  },
+  {
+    id: 650,
+    category: "AI Assistant",
+    title: "Replit Manager",
+    description: "Replit Manager is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.replit-manager.ai"
+  },
+  {
+    id: 651,
+    category: "Writing & Content",
+    title: "Vercel Pipeline",
+    description: "Vercel Pipeline helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.vercel-pipeline.ai"
+  },
+  {
+    id: 652,
+    category: "Developer Tools",
+    title: "Databricks Scribe",
+    description: "Databricks Scribe supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.databricks-scribe.ai"
+  },
+  {
+    id: 653,
+    category: "Image Generation",
+    title: "Snowflake Studio",
+    description: "Snowflake Studio generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.snowflake-studio.ai"
+  },
+  {
+    id: 654,
+    category: "Video Generation",
+    title: "Scale Workspace",
+    description: "Scale Workspace turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.scale-workspace.ai"
+  },
+  {
+    id: 655,
+    category: "Speech & Audio",
+    title: "Pinecone Engine",
+    description: "Pinecone Engine offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.pinecone-engine.ai"
+  },
+  {
+    id: 656,
+    category: "Productivity",
+    title: "Weaviate Assistant",
+    description: "Weaviate Assistant improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.weaviate-assistant.ai"
+  },
+  {
+    id: 657,
+    category: "Sales & CRM",
+    title: "LangChain Writer",
+    description: "LangChain Writer helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.langchain-writer.ai"
+  },
+  {
+    id: 658,
+    category: "Marketing Automation",
+    title: "LlamaIndex Generator",
+    description: "LlamaIndex Generator helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.llamaindex-generator.ai"
+  },
+  {
+    id: 659,
+    category: "Search & Research",
+    title: "Weights & Biases Analyzer",
+    description: "Weights & Biases Analyzer accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.weights-biases-analyzer.ai"
+  },
+  {
+    id: 660,
+    category: "Education",
+    title: "DataRobot Builder",
+    description: "DataRobot Builder supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.datarobot-builder.ai"
+  },
+  {
+    id: 661,
+    category: "Design",
+    title: "H2O Planner",
+    description: "H2O Planner helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.h2o-planner.ai"
+  },
+  {
+    id: 662,
+    category: "Automation",
+    title: "UiPath Flow",
+    description: "UiPath Flow automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.uipath-flow.ai"
+  },
+  {
+    id: 663,
+    category: "Data & Analytics",
+    title: "Automation Anywhere Labs",
+    description: "Automation Anywhere Labs converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.automation-anywhere-labs.ai"
+  },
+  {
+    id: 664,
+    category: "AI Assistant",
+    title: "Zoom Platform",
+    description: "Zoom Platform is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.zoom-platform.ai"
+  },
+  {
+    id: 665,
+    category: "Writing & Content",
+    title: "Slack Insight",
+    description: "Slack Insight helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.slack-insight.ai"
+  },
+  {
+    id: 666,
+    category: "Developer Tools",
+    title: "Dropbox Search",
+    description: "Dropbox Search supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.dropbox-search.ai"
+  },
+  {
+    id: 667,
+    category: "Image Generation",
+    title: "Box Voice",
+    description: "Box Voice generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.box-voice.ai"
+  },
+  {
+    id: 668,
+    category: "Video Generation",
+    title: "Otter Video",
+    description: "Otter Video turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.otter-video.ai"
+  },
+  {
+    id: 669,
+    category: "Speech & Audio",
+    title: "Fireflies Image",
+    description: "Fireflies Image offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.fireflies-image.ai"
+  },
+  {
+    id: 670,
+    category: "Productivity",
+    title: "Loom Agent",
+    description: "Loom Agent improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.loom-agent.ai"
+  },
+  {
+    id: 671,
+    category: "Sales & CRM",
+    title: "Tome Composer",
+    description: "Tome Composer helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.tome-composer.ai"
+  },
+  {
+    id: 672,
+    category: "Marketing Automation",
+    title: "Gamma Editor",
+    description: "Gamma Editor helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.gamma-editor.ai"
+  },
+  {
+    id: 673,
+    category: "Search & Research",
+    title: "Beautiful Automations",
+    description: "Beautiful Automations accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.beautiful-automations.ai"
+  },
+  {
+    id: 674,
+    category: "Education",
+    title: "Copy Signals",
+    description: "Copy Signals supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.copy-signals.ai"
+  },
+  {
+    id: 675,
+    category: "Design",
+    title: "Writesonic Dashboard",
+    description: "Writesonic Dashboard helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.writesonic-dashboard.ai"
+  },
+  {
+    id: 676,
+    category: "Automation",
+    title: "Anyword Toolkit",
+    description: "Anyword Toolkit automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.anyword-toolkit.ai"
+  },
+  {
+    id: 677,
+    category: "Data & Analytics",
+    title: "Surfer Research",
+    description: "Surfer Research converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.surfer-research.ai"
+  },
+  {
+    id: 678,
+    category: "AI Assistant",
+    title: "Semrush Academy",
+    description: "Semrush Academy is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.semrush-academy.ai"
+  },
+  {
+    id: 679,
+    category: "Writing & Content",
+    title: "Ahrefs Optimizer",
+    description: "Ahrefs Optimizer helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.ahrefs-optimizer.ai"
+  },
+  {
+    id: 680,
+    category: "Developer Tools",
+    title: "Moz Manager",
+    description: "Moz Manager supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.moz-manager.ai"
+  },
+  {
+    id: 681,
+    category: "Image Generation",
+    title: "Mailchimp Pipeline",
+    description: "Mailchimp Pipeline generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.mailchimp-pipeline.ai"
+  },
+  {
+    id: 682,
+    category: "Video Generation",
+    title: "Klaviyo Scribe",
+    description: "Klaviyo Scribe turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.klaviyo-scribe.ai"
+  },
+  {
+    id: 683,
+    category: "Speech & Audio",
+    title: "Braze Studio",
+    description: "Braze Studio offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.braze-studio.ai"
+  },
+  {
+    id: 684,
+    category: "Productivity",
+    title: "Amplitude Workspace",
+    description: "Amplitude Workspace improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.amplitude-workspace.ai"
+  },
+  {
+    id: 685,
+    category: "Sales & CRM",
+    title: "Mixpanel Engine",
+    description: "Mixpanel Engine helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.mixpanel-engine.ai"
+  },
+  {
+    id: 686,
+    category: "Marketing Automation",
+    title: "Heap Assistant",
+    description: "Heap Assistant helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.heap-assistant.ai"
+  },
+  {
+    id: 687,
+    category: "Search & Research",
+    title: "Gong Writer",
+    description: "Gong Writer accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.gong-writer.ai"
+  },
+  {
+    id: 688,
+    category: "Education",
+    title: "Clari Generator",
+    description: "Clari Generator supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.clari-generator.ai"
+  },
+  {
+    id: 689,
+    category: "Design",
+    title: "Outreach Analyzer",
+    description: "Outreach Analyzer helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.outreach-analyzer.ai"
+  },
+  {
+    id: 690,
+    category: "Automation",
+    title: "Apollo Builder",
+    description: "Apollo Builder automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.apollo-builder.ai"
+  },
+  {
+    id: 691,
+    category: "Data & Analytics",
+    title: "People Planner",
+    description: "People Planner converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.people-planner.ai"
+  },
+  {
+    id: 692,
+    category: "AI Assistant",
+    title: "Rippling Flow",
+    description: "Rippling Flow is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.rippling-flow.ai"
+  },
+  {
+    id: 693,
+    category: "Writing & Content",
+    title: "Deel Labs",
+    description: "Deel Labs helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.deel-labs.ai"
+  },
+  {
+    id: 694,
+    category: "Developer Tools",
+    title: "Coursera Platform",
+    description: "Coursera Platform supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.coursera-platform.ai"
+  },
+  {
+    id: 695,
+    category: "Image Generation",
+    title: "Khan Insight",
+    description: "Khan Insight generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.khan-insight.ai"
+  },
+  {
+    id: 696,
+    category: "Video Generation",
+    title: "Duolingo Search",
+    description: "Duolingo Search turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.duolingo-search.ai"
+  },
+  {
+    id: 697,
+    category: "Speech & Audio",
+    title: "Quizlet Voice",
+    description: "Quizlet Voice offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.quizlet-voice.ai"
+  },
+  {
+    id: 698,
+    category: "Productivity",
+    title: "Miro Video",
+    description: "Miro Video improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.miro-video.ai"
+  },
+  {
+    id: 699,
+    category: "Sales & CRM",
+    title: "FigJam Image",
+    description: "FigJam Image helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.figjam-image.ai"
+  },
+  {
+    id: 700,
+    category: "Marketing Automation",
+    title: "Akkio Agent",
+    description: "Akkio Agent helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.akkio-agent.ai"
+  },
+  {
+    id: 701,
+    category: "Search & Research",
+    title: "MonkeyLearn Composer",
+    description: "MonkeyLearn Composer accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.monkeylearn-composer.ai"
+  },
+  {
+    id: 702,
+    category: "Education",
+    title: "Qdrant Editor",
+    description: "Qdrant Editor supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.qdrant-editor.ai"
+  },
+  {
+    id: 703,
+    category: "Design",
+    title: "Milvus Automations",
+    description: "Milvus Automations helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.milvus-automations.ai"
+  },
+  {
+    id: 704,
+    category: "Automation",
+    title: "Redis Signals",
+    description: "Redis Signals automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.redis-signals.ai"
+  },
+  {
+    id: 705,
+    category: "Data & Analytics",
+    title: "Postman Dashboard",
+    description: "Postman Dashboard converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.postman-dashboard.ai"
+  },
+  {
+    id: 706,
+    category: "AI Assistant",
+    title: "Linear Toolkit",
+    description: "Linear Toolkit is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.linear-toolkit.ai"
+  },
+  {
+    id: 707,
+    category: "Writing & Content",
+    title: "Coda Research",
+    description: "Coda Research helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.coda-research.ai"
+  },
+  {
+    id: 708,
+    category: "Developer Tools",
+    title: "Adept Academy",
+    description: "Adept Academy supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.adept-academy.ai"
+  },
+  {
+    id: 709,
+    category: "Image Generation",
+    title: "Inflection Optimizer",
+    description: "Inflection Optimizer generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.inflection-optimizer.ai"
+  },
+  {
+    id: 710,
+    category: "Video Generation",
+    title: "Character Manager",
+    description: "Character Manager turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.character-manager.ai"
+  },
+  {
+    id: 711,
+    category: "Speech & Audio",
+    title: "You Pipeline",
+    description: "You Pipeline offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.you-pipeline.ai"
+  },
+  {
+    id: 712,
+    category: "Productivity",
+    title: "Phind Scribe",
+    description: "Phind Scribe improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.phind-scribe.ai"
+  },
+  {
+    id: 713,
+    category: "Sales & CRM",
+    title: "Quora Studio",
+    description: "Quora Studio helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.quora-studio.ai"
+  },
+  {
+    id: 714,
+    category: "Marketing Automation",
+    title: "Meta Workspace",
+    description: "Meta Workspace helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.meta-workspace.ai"
+  },
+  {
+    id: 715,
+    category: "Search & Research",
+    title: "NVIDIA Engine",
+    description: "NVIDIA Engine accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.nvidia-engine.ai"
+  },
+  {
+    id: 716,
+    category: "Education",
+    title: "Google Writer",
+    description: "Google Writer supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.google-writer.ai"
+  },
+  {
+    id: 717,
+    category: "Design",
+    title: "Microsoft Generator",
+    description: "Microsoft Generator helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.microsoft-generator.ai"
+  },
+  {
+    id: 718,
+    category: "Automation",
+    title: "Adobe Analyzer",
+    description: "Adobe Analyzer automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.adobe-analyzer.ai"
+  },
+  {
+    id: 719,
+    category: "Data & Analytics",
+    title: "Notion Builder",
+    description: "Notion Builder converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.notion-builder.ai"
+  },
+  {
+    id: 720,
+    category: "AI Assistant",
+    title: "Perplexity Planner",
+    description: "Perplexity Planner is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.perplexity-planner.ai"
+  },
+  {
+    id: 721,
+    category: "Writing & Content",
+    title: "Canva Flow",
+    description: "Canva Flow helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.canva-flow.ai"
+  },
+  {
+    id: 722,
+    category: "Developer Tools",
+    title: "Grammarly Labs",
+    description: "Grammarly Labs supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.grammarly-labs.ai"
+  },
+  {
+    id: 723,
+    category: "Image Generation",
+    title: "Jasper Platform",
+    description: "Jasper Platform generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.jasper-platform.ai"
+  },
+  {
+    id: 724,
+    category: "Video Generation",
+    title: "Runway Insight",
+    description: "Runway Insight turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.runway-insight.ai"
+  },
+  {
+    id: 725,
+    category: "Speech & Audio",
+    title: "Pika Search",
+    description: "Pika Search offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.pika-search.ai"
+  },
+  {
+    id: 726,
+    category: "Productivity",
+    title: "Synthesia Video",
+    description: "Synthesia Video improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.synthesia-video.ai"
+  },
+  {
+    id: 727,
+    category: "Sales & CRM",
+    title: "Descript Image",
+    description: "Descript Image helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.descript-image.ai"
+  },
+  {
+    id: 728,
+    category: "Marketing Automation",
+    title: "ElevenLabs Agent",
+    description: "ElevenLabs Agent helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.elevenlabs-agent.ai"
+  },
+  {
+    id: 729,
+    category: "Search & Research",
+    title: "Midjourney Composer",
+    description: "Midjourney Composer accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.midjourney-composer.ai"
+  },
+  {
+    id: 730,
+    category: "Education",
+    title: "Stability Editor",
+    description: "Stability Editor supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.stability-editor.ai"
+  },
+  {
+    id: 731,
+    category: "Design",
+    title: "Hugging Face Automations",
+    description: "Hugging Face Automations helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.hugging-face-automations.ai"
+  },
+  {
+    id: 732,
+    category: "Automation",
+    title: "Mistral Signals",
+    description: "Mistral Signals automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.mistral-signals.ai"
+  },
+  {
+    id: 733,
+    category: "Data & Analytics",
+    title: "Cohere Dashboard",
+    description: "Cohere Dashboard converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.cohere-dashboard.ai"
+  },
+  {
+    id: 734,
+    category: "AI Assistant",
+    title: "Zapier Toolkit",
+    description: "Zapier Toolkit is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.zapier-toolkit.ai"
+  },
+  {
+    id: 735,
+    category: "Writing & Content",
+    title: "HubSpot Research",
+    description: "HubSpot Research helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.hubspot-research.ai"
+  },
+  {
+    id: 736,
+    category: "Developer Tools",
+    title: "Salesforce Academy",
+    description: "Salesforce Academy supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.salesforce-academy.ai"
+  },
+  {
+    id: 737,
+    category: "Image Generation",
+    title: "Intercom Optimizer",
+    description: "Intercom Optimizer generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.intercom-optimizer.ai"
+  },
+  {
+    id: 738,
+    category: "Video Generation",
+    title: "Airtable Manager",
+    description: "Airtable Manager turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.airtable-manager.ai"
+  },
+  {
+    id: 739,
+    category: "Speech & Audio",
+    title: "ClickUp Pipeline",
+    description: "ClickUp Pipeline offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.clickup-pipeline.ai"
+  },
+  {
+    id: 740,
+    category: "Productivity",
+    title: "Asana Scribe",
+    description: "Asana Scribe improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.asana-scribe.ai"
+  },
+  {
+    id: 741,
+    category: "Sales & CRM",
+    title: "Monday Studio",
+    description: "Monday Studio helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.monday-studio.ai"
+  },
+  {
+    id: 742,
+    category: "Marketing Automation",
+    title: "Figma Workspace",
+    description: "Figma Workspace helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.figma-workspace.ai"
+  },
+  {
+    id: 743,
+    category: "Search & Research",
+    title: "Framer Engine",
+    description: "Framer Engine accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.framer-engine.ai"
+  },
+  {
+    id: 744,
+    category: "Education",
+    title: "GitHub Assistant",
+    description: "GitHub Assistant supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.github-assistant.ai"
+  },
+  {
+    id: 745,
+    category: "Design",
+    title: "GitLab Writer",
+    description: "GitLab Writer helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.gitlab-writer.ai"
+  },
+  {
+    id: 746,
+    category: "Automation",
+    title: "JetBrains Generator",
+    description: "JetBrains Generator automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.jetbrains-generator.ai"
+  },
+  {
+    id: 747,
+    category: "Data & Analytics",
+    title: "Replit Analyzer",
+    description: "Replit Analyzer converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.replit-analyzer.ai"
+  },
+  {
+    id: 748,
+    category: "AI Assistant",
+    title: "Vercel Builder",
+    description: "Vercel Builder is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.vercel-builder.ai"
+  },
+  {
+    id: 749,
+    category: "Writing & Content",
+    title: "Databricks Planner",
+    description: "Databricks Planner helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.databricks-planner.ai"
+  },
+  {
+    id: 750,
+    category: "Developer Tools",
+    title: "Snowflake Flow",
+    description: "Snowflake Flow supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.snowflake-flow.ai"
+  },
+  {
+    id: 751,
+    category: "Image Generation",
+    title: "Scale Labs",
+    description: "Scale Labs generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.scale-labs.ai"
+  },
+  {
+    id: 752,
+    category: "Video Generation",
+    title: "Pinecone Platform",
+    description: "Pinecone Platform turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.pinecone-platform.ai"
+  },
+  {
+    id: 753,
+    category: "Speech & Audio",
+    title: "Weaviate Insight",
+    description: "Weaviate Insight offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.weaviate-insight.ai"
+  },
+  {
+    id: 754,
+    category: "Productivity",
+    title: "LangChain Search",
+    description: "LangChain Search improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.langchain-search.ai"
+  },
+  {
+    id: 755,
+    category: "Sales & CRM",
+    title: "LlamaIndex Voice",
+    description: "LlamaIndex Voice helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.llamaindex-voice.ai"
+  },
+  {
+    id: 756,
+    category: "Marketing Automation",
+    title: "Weights & Biases Video",
+    description: "Weights & Biases Video helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.weights-biases-video.ai"
+  },
+  {
+    id: 757,
+    category: "Search & Research",
+    title: "DataRobot Image",
+    description: "DataRobot Image accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.datarobot-image.ai"
+  },
+  {
+    id: 758,
+    category: "Education",
+    title: "H2O Agent",
+    description: "H2O Agent supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.h2o-agent.ai"
+  },
+  {
+    id: 759,
+    category: "Design",
+    title: "UiPath Composer",
+    description: "UiPath Composer helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.uipath-composer.ai"
+  },
+  {
+    id: 760,
+    category: "Automation",
+    title: "Automation Anywhere Editor",
+    description: "Automation Anywhere Editor automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.automation-anywhere-editor.ai"
+  },
+  {
+    id: 761,
+    category: "Data & Analytics",
+    title: "Zoom Automations",
+    description: "Zoom Automations converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.zoom-automations.ai"
+  },
+  {
+    id: 762,
+    category: "AI Assistant",
+    title: "Slack Signals",
+    description: "Slack Signals is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.slack-signals.ai"
+  },
+  {
+    id: 763,
+    category: "Writing & Content",
+    title: "Dropbox Dashboard",
+    description: "Dropbox Dashboard helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.dropbox-dashboard.ai"
+  },
+  {
+    id: 764,
+    category: "Developer Tools",
+    title: "Box Toolkit",
+    description: "Box Toolkit supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.box-toolkit.ai"
+  },
+  {
+    id: 765,
+    category: "Image Generation",
+    title: "Otter Research",
+    description: "Otter Research generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.otter-research.ai"
+  },
+  {
+    id: 766,
+    category: "Video Generation",
+    title: "Fireflies Academy",
+    description: "Fireflies Academy turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.fireflies-academy.ai"
+  },
+  {
+    id: 767,
+    category: "Speech & Audio",
+    title: "Loom Optimizer",
+    description: "Loom Optimizer offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.loom-optimizer.ai"
+  },
+  {
+    id: 768,
+    category: "Productivity",
+    title: "Tome Manager",
+    description: "Tome Manager improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.tome-manager.ai"
+  },
+  {
+    id: 769,
+    category: "Sales & CRM",
+    title: "Gamma Pipeline",
+    description: "Gamma Pipeline helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.gamma-pipeline.ai"
+  },
+  {
+    id: 770,
+    category: "Marketing Automation",
+    title: "Beautiful Scribe",
+    description: "Beautiful Scribe helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.beautiful-scribe.ai"
+  },
+  {
+    id: 771,
+    category: "Search & Research",
+    title: "Copy Studio",
+    description: "Copy Studio accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.copy-studio.ai"
+  },
+  {
+    id: 772,
+    category: "Education",
+    title: "Writesonic Workspace",
+    description: "Writesonic Workspace supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.writesonic-workspace.ai"
+  },
+  {
+    id: 773,
+    category: "Design",
+    title: "Anyword Engine",
+    description: "Anyword Engine helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.anyword-engine.ai"
+  },
+  {
+    id: 774,
+    category: "Automation",
+    title: "Surfer Assistant",
+    description: "Surfer Assistant automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.surfer-assistant.ai"
+  },
+  {
+    id: 775,
+    category: "Data & Analytics",
+    title: "Semrush Writer",
+    description: "Semrush Writer converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.semrush-writer.ai"
+  },
+  {
+    id: 776,
+    category: "AI Assistant",
+    title: "Ahrefs Generator",
+    description: "Ahrefs Generator is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.ahrefs-generator.ai"
+  },
+  {
+    id: 777,
+    category: "Writing & Content",
+    title: "Moz Analyzer",
+    description: "Moz Analyzer helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.moz-analyzer.ai"
+  },
+  {
+    id: 778,
+    category: "Developer Tools",
+    title: "Mailchimp Builder",
+    description: "Mailchimp Builder supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.mailchimp-builder.ai"
+  },
+  {
+    id: 779,
+    category: "Image Generation",
+    title: "Klaviyo Planner",
+    description: "Klaviyo Planner generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.klaviyo-planner.ai"
+  },
+  {
+    id: 780,
+    category: "Video Generation",
+    title: "Braze Flow",
+    description: "Braze Flow turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.braze-flow.ai"
+  },
+  {
+    id: 781,
+    category: "Speech & Audio",
+    title: "Amplitude Labs",
+    description: "Amplitude Labs offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.amplitude-labs.ai"
+  },
+  {
+    id: 782,
+    category: "Productivity",
+    title: "Mixpanel Platform",
+    description: "Mixpanel Platform improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.mixpanel-platform.ai"
+  },
+  {
+    id: 783,
+    category: "Sales & CRM",
+    title: "Heap Insight",
+    description: "Heap Insight helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.heap-insight.ai"
+  },
+  {
+    id: 784,
+    category: "Marketing Automation",
+    title: "Gong Search",
+    description: "Gong Search helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.gong-search.ai"
+  },
+  {
+    id: 785,
+    category: "Search & Research",
+    title: "Clari Voice",
+    description: "Clari Voice accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.clari-voice.ai"
+  },
+  {
+    id: 786,
+    category: "Education",
+    title: "Outreach Video",
+    description: "Outreach Video supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.outreach-video.ai"
+  },
+  {
+    id: 787,
+    category: "Design",
+    title: "Apollo Image",
+    description: "Apollo Image helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.apollo-image.ai"
+  },
+  {
+    id: 788,
+    category: "Automation",
+    title: "People Agent",
+    description: "People Agent automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.people-agent.ai"
+  },
+  {
+    id: 789,
+    category: "Data & Analytics",
+    title: "Rippling Composer",
+    description: "Rippling Composer converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.rippling-composer.ai"
+  },
+  {
+    id: 790,
+    category: "AI Assistant",
+    title: "Deel Editor",
+    description: "Deel Editor is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.deel-editor.ai"
+  },
+  {
+    id: 791,
+    category: "Writing & Content",
+    title: "Coursera Automations",
+    description: "Coursera Automations helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.coursera-automations.ai"
+  },
+  {
+    id: 792,
+    category: "Developer Tools",
+    title: "Khan Signals",
+    description: "Khan Signals supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.khan-signals.ai"
+  },
+  {
+    id: 793,
+    category: "Image Generation",
+    title: "Duolingo Dashboard",
+    description: "Duolingo Dashboard generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.duolingo-dashboard.ai"
+  },
+  {
+    id: 794,
+    category: "Video Generation",
+    title: "Quizlet Toolkit",
+    description: "Quizlet Toolkit turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.quizlet-toolkit.ai"
+  },
+  {
+    id: 795,
+    category: "Speech & Audio",
+    title: "Miro Research",
+    description: "Miro Research offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.miro-research.ai"
+  },
+  {
+    id: 796,
+    category: "Productivity",
+    title: "FigJam Academy",
+    description: "FigJam Academy improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.figjam-academy.ai"
+  },
+  {
+    id: 797,
+    category: "Sales & CRM",
+    title: "Akkio Optimizer",
+    description: "Akkio Optimizer helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.akkio-optimizer.ai"
+  },
+  {
+    id: 798,
+    category: "Marketing Automation",
+    title: "MonkeyLearn Manager",
+    description: "MonkeyLearn Manager helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.monkeylearn-manager.ai"
+  },
+  {
+    id: 799,
+    category: "Search & Research",
+    title: "Qdrant Pipeline",
+    description: "Qdrant Pipeline accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.qdrant-pipeline.ai"
+  },
+  {
+    id: 800,
+    category: "Education",
+    title: "Milvus Scribe",
+    description: "Milvus Scribe supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.milvus-scribe.ai"
+  },
+  {
+    id: 801,
+    category: "Design",
+    title: "Redis Studio",
+    description: "Redis Studio helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.redis-studio.ai"
+  },
+  {
+    id: 802,
+    category: "Automation",
+    title: "Postman Workspace",
+    description: "Postman Workspace automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.postman-workspace.ai"
+  },
+  {
+    id: 803,
+    category: "Data & Analytics",
+    title: "Linear Engine",
+    description: "Linear Engine converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.linear-engine.ai"
+  },
+  {
+    id: 804,
+    category: "AI Assistant",
+    title: "Coda Assistant",
+    description: "Coda Assistant is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.coda-assistant.ai"
+  },
+  {
+    id: 805,
+    category: "Writing & Content",
+    title: "Adept Writer",
+    description: "Adept Writer helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.adept-writer.ai"
+  },
+  {
+    id: 806,
+    category: "Developer Tools",
+    title: "Inflection Generator",
+    description: "Inflection Generator supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.inflection-generator.ai"
+  },
+  {
+    id: 807,
+    category: "Image Generation",
+    title: "Character Analyzer",
+    description: "Character Analyzer generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.character-analyzer.ai"
+  },
+  {
+    id: 808,
+    category: "Video Generation",
+    title: "You Builder",
+    description: "You Builder turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.you-builder.ai"
+  },
+  {
+    id: 809,
+    category: "Speech & Audio",
+    title: "Phind Planner",
+    description: "Phind Planner offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.phind-planner.ai"
+  },
+  {
+    id: 810,
+    category: "Productivity",
+    title: "Quora Flow",
+    description: "Quora Flow improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.quora-flow.ai"
+  },
+  {
+    id: 811,
+    category: "Sales & CRM",
+    title: "Meta Labs",
+    description: "Meta Labs helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.meta-labs.ai"
+  },
+  {
+    id: 812,
+    category: "Marketing Automation",
+    title: "NVIDIA Platform",
+    description: "NVIDIA Platform helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.nvidia-platform.ai"
+  },
+  {
+    id: 813,
+    category: "Search & Research",
+    title: "IBM Insight",
+    description: "IBM Insight accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.ibm-insight.ai"
+  },
+  {
+    id: 814,
+    category: "Education",
+    title: "Oracle Search",
+    description: "Oracle Search supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.oracle-search.ai"
+  },
+  {
+    id: 815,
+    category: "Design",
+    title: "Palantir Voice",
+    description: "Palantir Voice helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.palantir-voice.ai"
+  },
+  {
+    id: 816,
+    category: "Automation",
+    title: "CrowdStrike Video",
+    description: "CrowdStrike Video automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.crowdstrike-video.ai"
+  },
+  {
+    id: 817,
+    category: "Data & Analytics",
+    title: "Cloudflare Image",
+    description: "Cloudflare Image converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.cloudflare-image.ai"
+  },
+  {
+    id: 818,
+    category: "AI Assistant",
+    title: "Anthropic Agent",
+    description: "Anthropic Agent is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.anthropic-agent.ai"
+  },
+  {
+    id: 819,
+    category: "Writing & Content",
+    title: "OpenAI Composer",
+    description: "OpenAI Composer helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.openai-composer.ai"
+  },
+  {
+    id: 820,
+    category: "Developer Tools",
+    title: "Google Editor",
+    description: "Google Editor supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.google-editor.ai"
+  },
+  {
+    id: 821,
+    category: "Image Generation",
+    title: "Microsoft Automations",
+    description: "Microsoft Automations generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.microsoft-automations.ai"
+  },
+  {
+    id: 822,
+    category: "Video Generation",
+    title: "Adobe Signals",
+    description: "Adobe Signals turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.adobe-signals.ai"
+  },
+  {
+    id: 823,
+    category: "Speech & Audio",
+    title: "Notion Dashboard",
+    description: "Notion Dashboard offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.notion-dashboard.ai"
+  },
+  {
+    id: 824,
+    category: "Productivity",
+    title: "Perplexity Toolkit",
+    description: "Perplexity Toolkit improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.perplexity-toolkit.ai"
+  },
+  {
+    id: 825,
+    category: "Sales & CRM",
+    title: "Canva Research",
+    description: "Canva Research helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.canva-research.ai"
+  },
+  {
+    id: 826,
+    category: "Marketing Automation",
+    title: "Grammarly Academy",
+    description: "Grammarly Academy helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.grammarly-academy.ai"
+  },
+  {
+    id: 827,
+    category: "Search & Research",
+    title: "Jasper Optimizer",
+    description: "Jasper Optimizer accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.jasper-optimizer.ai"
+  },
+  {
+    id: 828,
+    category: "Education",
+    title: "Runway Manager",
+    description: "Runway Manager supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.runway-manager.ai"
+  },
+  {
+    id: 829,
+    category: "Design",
+    title: "Pika Pipeline",
+    description: "Pika Pipeline helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.pika-pipeline.ai"
+  },
+  {
+    id: 830,
+    category: "Automation",
+    title: "Synthesia Studio",
+    description: "Synthesia Studio automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.synthesia-studio.ai"
+  },
+  {
+    id: 831,
+    category: "Data & Analytics",
+    title: "Descript Workspace",
+    description: "Descript Workspace converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.descript-workspace.ai"
+  },
+  {
+    id: 832,
+    category: "AI Assistant",
+    title: "ElevenLabs Engine",
+    description: "ElevenLabs Engine is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.elevenlabs-engine.ai"
+  },
+  {
+    id: 833,
+    category: "Writing & Content",
+    title: "Midjourney Assistant",
+    description: "Midjourney Assistant helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.midjourney-assistant.ai"
+  },
+  {
+    id: 834,
+    category: "Developer Tools",
+    title: "Stability Writer",
+    description: "Stability Writer supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.stability-writer.ai"
+  },
+  {
+    id: 835,
+    category: "Image Generation",
+    title: "Hugging Face Generator",
+    description: "Hugging Face Generator generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.hugging-face-generator.ai"
+  },
+  {
+    id: 836,
+    category: "Video Generation",
+    title: "Mistral Analyzer",
+    description: "Mistral Analyzer turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.mistral-analyzer.ai"
+  },
+  {
+    id: 837,
+    category: "Speech & Audio",
+    title: "Cohere Builder",
+    description: "Cohere Builder offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.cohere-builder.ai"
+  },
+  {
+    id: 838,
+    category: "Productivity",
+    title: "Zapier Planner",
+    description: "Zapier Planner improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.zapier-planner.ai"
+  },
+  {
+    id: 839,
+    category: "Sales & CRM",
+    title: "HubSpot Flow",
+    description: "HubSpot Flow helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.hubspot-flow.ai"
+  },
+  {
+    id: 840,
+    category: "Marketing Automation",
+    title: "Salesforce Labs",
+    description: "Salesforce Labs helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.salesforce-labs.ai"
+  },
+  {
+    id: 841,
+    category: "Search & Research",
+    title: "Intercom Platform",
+    description: "Intercom Platform accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.intercom-platform.ai"
+  },
+  {
+    id: 842,
+    category: "Education",
+    title: "Airtable Insight",
+    description: "Airtable Insight supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.airtable-insight.ai"
+  },
+  {
+    id: 843,
+    category: "Design",
+    title: "ClickUp Search",
+    description: "ClickUp Search helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.clickup-search.ai"
+  },
+  {
+    id: 844,
+    category: "Automation",
+    title: "Asana Voice",
+    description: "Asana Voice automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.asana-voice.ai"
+  },
+  {
+    id: 845,
+    category: "Data & Analytics",
+    title: "Monday Video",
+    description: "Monday Video converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.monday-video.ai"
+  },
+  {
+    id: 846,
+    category: "AI Assistant",
+    title: "Figma Image",
+    description: "Figma Image is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.figma-image.ai"
+  },
+  {
+    id: 847,
+    category: "Writing & Content",
+    title: "Framer Agent",
+    description: "Framer Agent helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.framer-agent.ai"
+  },
+  {
+    id: 848,
+    category: "Developer Tools",
+    title: "GitHub Composer",
+    description: "GitHub Composer supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.github-composer.ai"
+  },
+  {
+    id: 849,
+    category: "Image Generation",
+    title: "GitLab Editor",
+    description: "GitLab Editor generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.gitlab-editor.ai"
+  },
+  {
+    id: 850,
+    category: "Video Generation",
+    title: "JetBrains Automations",
+    description: "JetBrains Automations turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.jetbrains-automations.ai"
+  },
+  {
+    id: 851,
+    category: "Speech & Audio",
+    title: "Replit Signals",
+    description: "Replit Signals offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.replit-signals.ai"
+  },
+  {
+    id: 852,
+    category: "Productivity",
+    title: "Vercel Dashboard",
+    description: "Vercel Dashboard improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.vercel-dashboard.ai"
+  },
+  {
+    id: 853,
+    category: "Sales & CRM",
+    title: "Databricks Toolkit",
+    description: "Databricks Toolkit helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.databricks-toolkit.ai"
+  },
+  {
+    id: 854,
+    category: "Marketing Automation",
+    title: "Snowflake Research",
+    description: "Snowflake Research helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.snowflake-research.ai"
+  },
+  {
+    id: 855,
+    category: "Search & Research",
+    title: "Scale Academy",
+    description: "Scale Academy accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.scale-academy.ai"
+  },
+  {
+    id: 856,
+    category: "Education",
+    title: "Pinecone Optimizer",
+    description: "Pinecone Optimizer supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.pinecone-optimizer.ai"
+  },
+  {
+    id: 857,
+    category: "Design",
+    title: "Weaviate Manager",
+    description: "Weaviate Manager helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.weaviate-manager.ai"
+  },
+  {
+    id: 858,
+    category: "Automation",
+    title: "LangChain Pipeline",
+    description: "LangChain Pipeline automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.langchain-pipeline.ai"
+  },
+  {
+    id: 859,
+    category: "Data & Analytics",
+    title: "LlamaIndex Scribe",
+    description: "LlamaIndex Scribe converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.llamaindex-scribe.ai"
+  },
+  {
+    id: 860,
+    category: "AI Assistant",
+    title: "Weights & Biases Studio",
+    description: "Weights & Biases Studio is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.weights-biases-studio.ai"
+  },
+  {
+    id: 861,
+    category: "Writing & Content",
+    title: "DataRobot Workspace",
+    description: "DataRobot Workspace helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.datarobot-workspace.ai"
+  },
+  {
+    id: 862,
+    category: "Developer Tools",
+    title: "H2O Engine",
+    description: "H2O Engine supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.h2o-engine.ai"
+  },
+  {
+    id: 863,
+    category: "Image Generation",
+    title: "UiPath Assistant",
+    description: "UiPath Assistant generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.uipath-assistant.ai"
+  },
+  {
+    id: 864,
+    category: "Video Generation",
+    title: "Automation Anywhere Writer",
+    description: "Automation Anywhere Writer turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.automation-anywhere-writer.ai"
+  },
+  {
+    id: 865,
+    category: "Speech & Audio",
+    title: "Zoom Generator",
+    description: "Zoom Generator offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.zoom-generator.ai"
+  },
+  {
+    id: 866,
+    category: "Productivity",
+    title: "Slack Analyzer",
+    description: "Slack Analyzer improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.slack-analyzer.ai"
+  },
+  {
+    id: 867,
+    category: "Sales & CRM",
+    title: "Dropbox Builder",
+    description: "Dropbox Builder helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.dropbox-builder.ai"
+  },
+  {
+    id: 868,
+    category: "Marketing Automation",
+    title: "Box Planner",
+    description: "Box Planner helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.box-planner.ai"
+  },
+  {
+    id: 869,
+    category: "Search & Research",
+    title: "Otter Flow",
+    description: "Otter Flow accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.otter-flow.ai"
+  },
+  {
+    id: 870,
+    category: "Education",
+    title: "Fireflies Labs",
+    description: "Fireflies Labs supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.fireflies-labs.ai"
+  },
+  {
+    id: 871,
+    category: "Design",
+    title: "Loom Platform",
+    description: "Loom Platform helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.loom-platform.ai"
+  },
+  {
+    id: 872,
+    category: "Automation",
+    title: "Tome Insight",
+    description: "Tome Insight automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.tome-insight.ai"
+  },
+  {
+    id: 873,
+    category: "Data & Analytics",
+    title: "Gamma Search",
+    description: "Gamma Search converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.gamma-search.ai"
+  },
+  {
+    id: 874,
+    category: "AI Assistant",
+    title: "Beautiful Voice",
+    description: "Beautiful Voice is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.beautiful-voice.ai"
+  },
+  {
+    id: 875,
+    category: "Writing & Content",
+    title: "Copy Video",
+    description: "Copy Video helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.copy-video.ai"
+  },
+  {
+    id: 876,
+    category: "Developer Tools",
+    title: "Writesonic Image",
+    description: "Writesonic Image supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.writesonic-image.ai"
+  },
+  {
+    id: 877,
+    category: "Image Generation",
+    title: "Anyword Agent",
+    description: "Anyword Agent generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.anyword-agent.ai"
+  },
+  {
+    id: 878,
+    category: "Video Generation",
+    title: "Surfer Composer",
+    description: "Surfer Composer turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.surfer-composer.ai"
+  },
+  {
+    id: 879,
+    category: "Speech & Audio",
+    title: "Semrush Editor",
+    description: "Semrush Editor offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.semrush-editor.ai"
+  },
+  {
+    id: 880,
+    category: "Productivity",
+    title: "Ahrefs Automations",
+    description: "Ahrefs Automations improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.ahrefs-automations.ai"
+  },
+  {
+    id: 881,
+    category: "Sales & CRM",
+    title: "Moz Signals",
+    description: "Moz Signals helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.moz-signals.ai"
+  },
+  {
+    id: 882,
+    category: "Marketing Automation",
+    title: "Mailchimp Dashboard",
+    description: "Mailchimp Dashboard helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.mailchimp-dashboard.ai"
+  },
+  {
+    id: 883,
+    category: "Search & Research",
+    title: "Klaviyo Toolkit",
+    description: "Klaviyo Toolkit accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.klaviyo-toolkit.ai"
+  },
+  {
+    id: 884,
+    category: "Education",
+    title: "Braze Research",
+    description: "Braze Research supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.braze-research.ai"
+  },
+  {
+    id: 885,
+    category: "Design",
+    title: "Amplitude Academy",
+    description: "Amplitude Academy helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.amplitude-academy.ai"
+  },
+  {
+    id: 886,
+    category: "Automation",
+    title: "Mixpanel Optimizer",
+    description: "Mixpanel Optimizer automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.mixpanel-optimizer.ai"
+  },
+  {
+    id: 887,
+    category: "Data & Analytics",
+    title: "Heap Manager",
+    description: "Heap Manager converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.heap-manager.ai"
+  },
+  {
+    id: 888,
+    category: "AI Assistant",
+    title: "Gong Pipeline",
+    description: "Gong Pipeline is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.gong-pipeline.ai"
+  },
+  {
+    id: 889,
+    category: "Writing & Content",
+    title: "Clari Scribe",
+    description: "Clari Scribe helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.clari-scribe.ai"
+  },
+  {
+    id: 890,
+    category: "Developer Tools",
+    title: "Outreach Studio",
+    description: "Outreach Studio supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.outreach-studio.ai"
+  },
+  {
+    id: 891,
+    category: "Image Generation",
+    title: "Apollo Workspace",
+    description: "Apollo Workspace generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.apollo-workspace.ai"
+  },
+  {
+    id: 892,
+    category: "Video Generation",
+    title: "People Engine",
+    description: "People Engine turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.people-engine.ai"
+  },
+  {
+    id: 893,
+    category: "Speech & Audio",
+    title: "Rippling Assistant",
+    description: "Rippling Assistant offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.rippling-assistant.ai"
+  },
+  {
+    id: 894,
+    category: "Productivity",
+    title: "Deel Writer",
+    description: "Deel Writer improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.deel-writer.ai"
+  },
+  {
+    id: 895,
+    category: "Sales & CRM",
+    title: "Coursera Generator",
+    description: "Coursera Generator helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.coursera-generator.ai"
+  },
+  {
+    id: 896,
+    category: "Marketing Automation",
+    title: "Khan Analyzer",
+    description: "Khan Analyzer helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.khan-analyzer.ai"
+  },
+  {
+    id: 897,
+    category: "Search & Research",
+    title: "Duolingo Builder",
+    description: "Duolingo Builder accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.duolingo-builder.ai"
+  },
+  {
+    id: 898,
+    category: "Education",
+    title: "Quizlet Planner",
+    description: "Quizlet Planner supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.quizlet-planner.ai"
+  },
+  {
+    id: 899,
+    category: "Design",
+    title: "Miro Flow",
+    description: "Miro Flow helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.miro-flow.ai"
+  },
+  {
+    id: 900,
+    category: "Automation",
+    title: "FigJam Labs",
+    description: "FigJam Labs automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.figjam-labs.ai"
+  },
+  {
+    id: 901,
+    category: "Data & Analytics",
+    title: "Akkio Platform",
+    description: "Akkio Platform converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.akkio-platform.ai"
+  },
+  {
+    id: 902,
+    category: "AI Assistant",
+    title: "MonkeyLearn Insight",
+    description: "MonkeyLearn Insight is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.monkeylearn-insight.ai"
+  },
+  {
+    id: 903,
+    category: "Writing & Content",
+    title: "Qdrant Search",
+    description: "Qdrant Search helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.qdrant-search.ai"
+  },
+  {
+    id: 904,
+    category: "Developer Tools",
+    title: "Milvus Voice",
+    description: "Milvus Voice supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.milvus-voice.ai"
+  },
+  {
+    id: 905,
+    category: "Image Generation",
+    title: "Redis Video",
+    description: "Redis Video generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.redis-video.ai"
+  },
+  {
+    id: 906,
+    category: "Video Generation",
+    title: "Postman Image",
+    description: "Postman Image turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.postman-image.ai"
+  },
+  {
+    id: 907,
+    category: "Speech & Audio",
+    title: "Linear Agent",
+    description: "Linear Agent offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.linear-agent.ai"
+  },
+  {
+    id: 908,
+    category: "Productivity",
+    title: "Coda Composer",
+    description: "Coda Composer improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.coda-composer.ai"
+  },
+  {
+    id: 909,
+    category: "Sales & CRM",
+    title: "Adept Editor",
+    description: "Adept Editor helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.adept-editor.ai"
+  },
+  {
+    id: 910,
+    category: "Marketing Automation",
+    title: "Inflection Automations",
+    description: "Inflection Automations helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.inflection-automations.ai"
+  },
+  {
+    id: 911,
+    category: "Search & Research",
+    title: "Character Signals",
+    description: "Character Signals accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.character-signals.ai"
+  },
+  {
+    id: 912,
+    category: "Education",
+    title: "You Dashboard",
+    description: "You Dashboard supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.you-dashboard.ai"
+  },
+  {
+    id: 913,
+    category: "Design",
+    title: "Phind Toolkit",
+    description: "Phind Toolkit helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.phind-toolkit.ai"
+  },
+  {
+    id: 914,
+    category: "Automation",
+    title: "Quora Research",
+    description: "Quora Research automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.quora-research.ai"
+  },
+  {
+    id: 915,
+    category: "Data & Analytics",
+    title: "Meta Academy",
+    description: "Meta Academy converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.meta-academy.ai"
+  },
+  {
+    id: 916,
+    category: "AI Assistant",
+    title: "NVIDIA Optimizer",
+    description: "NVIDIA Optimizer is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.nvidia-optimizer.ai"
+  },
+  {
+    id: 917,
+    category: "Writing & Content",
+    title: "IBM Manager",
+    description: "IBM Manager helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.ibm-manager.ai"
+  },
+  {
+    id: 918,
+    category: "Developer Tools",
+    title: "Oracle Pipeline",
+    description: "Oracle Pipeline supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.oracle-pipeline.ai"
+  },
+  {
+    id: 919,
+    category: "Image Generation",
+    title: "Palantir Scribe",
+    description: "Palantir Scribe generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.palantir-scribe.ai"
+  },
+  {
+    id: 920,
+    category: "Video Generation",
+    title: "CrowdStrike Studio",
+    description: "CrowdStrike Studio turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.crowdstrike-studio.ai"
+  },
+  {
+    id: 921,
+    category: "Speech & Audio",
+    title: "Cloudflare Workspace",
+    description: "Cloudflare Workspace offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.cloudflare-workspace.ai"
+  },
+  {
+    id: 922,
+    category: "Productivity",
+    title: "Anthropic Engine",
+    description: "Anthropic Engine improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.anthropic-engine.ai"
+  },
+  {
+    id: 923,
+    category: "Sales & CRM",
+    title: "OpenAI Assistant",
+    description: "OpenAI Assistant helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.openai-assistant.ai"
+  },
+  {
+    id: 924,
+    category: "Marketing Automation",
+    title: "Jasper Generator",
+    description: "Jasper Generator helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.jasper-generator.ai"
+  },
+  {
+    id: 925,
+    category: "Search & Research",
+    title: "Runway Analyzer",
+    description: "Runway Analyzer accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.runway-analyzer.ai"
+  },
+  {
+    id: 926,
+    category: "Education",
+    title: "Pika Builder",
+    description: "Pika Builder supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.pika-builder.ai"
+  },
+  {
+    id: 927,
+    category: "Design",
+    title: "Synthesia Planner",
+    description: "Synthesia Planner helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.synthesia-planner.ai"
+  },
+  {
+    id: 928,
+    category: "Automation",
+    title: "Descript Flow",
+    description: "Descript Flow automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.descript-flow.ai"
+  },
+  {
+    id: 929,
+    category: "Data & Analytics",
+    title: "ElevenLabs Labs",
+    description: "ElevenLabs Labs converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.elevenlabs-labs.ai"
+  },
+  {
+    id: 930,
+    category: "AI Assistant",
+    title: "Midjourney Platform",
+    description: "Midjourney Platform is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.midjourney-platform.ai"
+  },
+  {
+    id: 931,
+    category: "Writing & Content",
+    title: "Stability Insight",
+    description: "Stability Insight helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.stability-insight.ai"
+  },
+  {
+    id: 932,
+    category: "Developer Tools",
+    title: "Hugging Face Search",
+    description: "Hugging Face Search supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.hugging-face-search.ai"
+  },
+  {
+    id: 933,
+    category: "Image Generation",
+    title: "Mistral Video",
+    description: "Mistral Video generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.mistral-video.ai"
+  },
+  {
+    id: 934,
+    category: "Video Generation",
+    title: "Cohere Image",
+    description: "Cohere Image turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.cohere-image.ai"
+  },
+  {
+    id: 935,
+    category: "Speech & Audio",
+    title: "Zapier Agent",
+    description: "Zapier Agent offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.zapier-agent.ai"
+  },
+  {
+    id: 936,
+    category: "Productivity",
+    title: "HubSpot Composer",
+    description: "HubSpot Composer improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.hubspot-composer.ai"
+  },
+  {
+    id: 937,
+    category: "Sales & CRM",
+    title: "Salesforce Editor",
+    description: "Salesforce Editor helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.salesforce-editor.ai"
+  },
+  {
+    id: 938,
+    category: "Marketing Automation",
+    title: "Intercom Automations",
+    description: "Intercom Automations helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.intercom-automations.ai"
+  },
+  {
+    id: 939,
+    category: "Search & Research",
+    title: "Airtable Signals",
+    description: "Airtable Signals accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.airtable-signals.ai"
+  },
+  {
+    id: 940,
+    category: "Education",
+    title: "ClickUp Dashboard",
+    description: "ClickUp Dashboard supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.clickup-dashboard.ai"
+  },
+  {
+    id: 941,
+    category: "Design",
+    title: "Asana Toolkit",
+    description: "Asana Toolkit helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.asana-toolkit.ai"
+  },
+  {
+    id: 942,
+    category: "Automation",
+    title: "Monday Research",
+    description: "Monday Research automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.monday-research.ai"
+  },
+  {
+    id: 943,
+    category: "Data & Analytics",
+    title: "Figma Academy",
+    description: "Figma Academy converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.figma-academy.ai"
+  },
+  {
+    id: 944,
+    category: "AI Assistant",
+    title: "Framer Optimizer",
+    description: "Framer Optimizer is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.framer-optimizer.ai"
+  },
+  {
+    id: 945,
+    category: "Writing & Content",
+    title: "GitHub Manager",
+    description: "GitHub Manager helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.github-manager.ai"
+  },
+  {
+    id: 946,
+    category: "Developer Tools",
+    title: "GitLab Pipeline",
+    description: "GitLab Pipeline supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.gitlab-pipeline.ai"
+  },
+  {
+    id: 947,
+    category: "Image Generation",
+    title: "JetBrains Scribe",
+    description: "JetBrains Scribe generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.jetbrains-scribe.ai"
+  },
+  {
+    id: 948,
+    category: "Video Generation",
+    title: "Replit Studio",
+    description: "Replit Studio turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.replit-studio.ai"
+  },
+  {
+    id: 949,
+    category: "Speech & Audio",
+    title: "Vercel Workspace",
+    description: "Vercel Workspace offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.vercel-workspace.ai"
+  },
+  {
+    id: 950,
+    category: "Productivity",
+    title: "Databricks Engine",
+    description: "Databricks Engine improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.databricks-engine.ai"
+  },
+  {
+    id: 951,
+    category: "Sales & CRM",
+    title: "Snowflake Assistant",
+    description: "Snowflake Assistant helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.snowflake-assistant.ai"
+  },
+  {
+    id: 952,
+    category: "Marketing Automation",
+    title: "Scale Writer",
+    description: "Scale Writer helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.scale-writer.ai"
+  },
+  {
+    id: 953,
+    category: "Search & Research",
+    title: "Pinecone Generator",
+    description: "Pinecone Generator accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.pinecone-generator.ai"
+  },
+  {
+    id: 954,
+    category: "Education",
+    title: "Weaviate Analyzer",
+    description: "Weaviate Analyzer supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.weaviate-analyzer.ai"
+  },
+  {
+    id: 955,
+    category: "Design",
+    title: "LangChain Builder",
+    description: "LangChain Builder helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.langchain-builder.ai"
+  },
+  {
+    id: 956,
+    category: "Automation",
+    title: "LlamaIndex Planner",
+    description: "LlamaIndex Planner automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.llamaindex-planner.ai"
+  },
+  {
+    id: 957,
+    category: "Data & Analytics",
+    title: "Weights & Biases Flow",
+    description: "Weights & Biases Flow converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.weights-biases-flow.ai"
+  },
+  {
+    id: 958,
+    category: "AI Assistant",
+    title: "DataRobot Labs",
+    description: "DataRobot Labs is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.datarobot-labs.ai"
+  },
+  {
+    id: 959,
+    category: "Writing & Content",
+    title: "H2O Platform",
+    description: "H2O Platform helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.h2o-platform.ai"
+  },
+  {
+    id: 960,
+    category: "Developer Tools",
+    title: "UiPath Insight",
+    description: "UiPath Insight supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.uipath-insight.ai"
+  },
+  {
+    id: 961,
+    category: "Image Generation",
+    title: "Automation Anywhere Search",
+    description: "Automation Anywhere Search generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.automation-anywhere-search.ai"
+  },
+  {
+    id: 962,
+    category: "Video Generation",
+    title: "Zoom Voice",
+    description: "Zoom Voice turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.zoom-voice.ai"
+  },
+  {
+    id: 963,
+    category: "Speech & Audio",
+    title: "Slack Video",
+    description: "Slack Video offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.slack-video.ai"
+  },
+  {
+    id: 964,
+    category: "Productivity",
+    title: "Dropbox Image",
+    description: "Dropbox Image improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.dropbox-image.ai"
+  },
+  {
+    id: 965,
+    category: "Sales & CRM",
+    title: "Box Agent",
+    description: "Box Agent helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.box-agent.ai"
+  },
+  {
+    id: 966,
+    category: "Marketing Automation",
+    title: "Otter Composer",
+    description: "Otter Composer helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.otter-composer.ai"
+  },
+  {
+    id: 967,
+    category: "Search & Research",
+    title: "Fireflies Editor",
+    description: "Fireflies Editor accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.fireflies-editor.ai"
+  },
+  {
+    id: 968,
+    category: "Education",
+    title: "Loom Automations",
+    description: "Loom Automations supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.loom-automations.ai"
+  },
+  {
+    id: 969,
+    category: "Design",
+    title: "Tome Signals",
+    description: "Tome Signals helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.tome-signals.ai"
+  },
+  {
+    id: 970,
+    category: "Automation",
+    title: "Gamma Dashboard",
+    description: "Gamma Dashboard automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.gamma-dashboard.ai"
+  },
+  {
+    id: 971,
+    category: "Data & Analytics",
+    title: "Beautiful Toolkit",
+    description: "Beautiful Toolkit converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.beautiful-toolkit.ai"
+  },
+  {
+    id: 972,
+    category: "AI Assistant",
+    title: "Copy Research",
+    description: "Copy Research is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.copy-research.ai"
+  },
+  {
+    id: 973,
+    category: "Writing & Content",
+    title: "Writesonic Academy",
+    description: "Writesonic Academy helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.writesonic-academy.ai"
+  },
+  {
+    id: 974,
+    category: "Developer Tools",
+    title: "Anyword Optimizer",
+    description: "Anyword Optimizer supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.anyword-optimizer.ai"
+  },
+  {
+    id: 975,
+    category: "Image Generation",
+    title: "Surfer Manager",
+    description: "Surfer Manager generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.surfer-manager.ai"
+  },
+  {
+    id: 976,
+    category: "Video Generation",
+    title: "Semrush Pipeline",
+    description: "Semrush Pipeline turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.semrush-pipeline.ai"
+  },
+  {
+    id: 977,
+    category: "Speech & Audio",
+    title: "Ahrefs Scribe",
+    description: "Ahrefs Scribe offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.ahrefs-scribe.ai"
+  },
+  {
+    id: 978,
+    category: "Productivity",
+    title: "Moz Studio",
+    description: "Moz Studio improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.moz-studio.ai"
+  },
+  {
+    id: 979,
+    category: "Sales & CRM",
+    title: "Mailchimp Workspace",
+    description: "Mailchimp Workspace helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.mailchimp-workspace.ai"
+  },
+  {
+    id: 980,
+    category: "Marketing Automation",
+    title: "Klaviyo Engine",
+    description: "Klaviyo Engine helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.klaviyo-engine.ai"
+  },
+  {
+    id: 981,
+    category: "Search & Research",
+    title: "Braze Assistant",
+    description: "Braze Assistant accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.braze-assistant.ai"
+  },
+  {
+    id: 982,
+    category: "Education",
+    title: "Amplitude Writer",
+    description: "Amplitude Writer supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.amplitude-writer.ai"
+  },
+  {
+    id: 983,
+    category: "Design",
+    title: "Mixpanel Generator",
+    description: "Mixpanel Generator helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.mixpanel-generator.ai"
+  },
+  {
+    id: 984,
+    category: "Automation",
+    title: "Heap Analyzer",
+    description: "Heap Analyzer automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.heap-analyzer.ai"
+  },
+  {
+    id: 985,
+    category: "Data & Analytics",
+    title: "Gong Builder",
+    description: "Gong Builder converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.gong-builder.ai"
+  },
+  {
+    id: 986,
+    category: "AI Assistant",
+    title: "Clari Planner",
+    description: "Clari Planner is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.clari-planner.ai"
+  },
+  {
+    id: 987,
+    category: "Writing & Content",
+    title: "Outreach Flow",
+    description: "Outreach Flow helps teams create blog posts, product copy, and campaign content with AI-guided editing.",
+    link: "https://www.outreach-flow.ai"
+  },
+  {
+    id: 988,
+    category: "Developer Tools",
+    title: "Apollo Labs",
+    description: "Apollo Labs supports developers with code generation, refactoring suggestions, and documentation workflows.",
+    link: "https://www.apollo-labs.ai"
+  },
+  {
+    id: 989,
+    category: "Image Generation",
+    title: "People Platform",
+    description: "People Platform generates images from prompts and provides editing controls for style and composition.",
+    link: "https://www.people-platform.ai"
+  },
+  {
+    id: 990,
+    category: "Video Generation",
+    title: "Rippling Insight",
+    description: "Rippling Insight turns prompts or scripts into editable videos for training, ads, and social content.",
+    link: "https://www.rippling-insight.ai"
+  },
+  {
+    id: 991,
+    category: "Speech & Audio",
+    title: "Deel Search",
+    description: "Deel Search offers speech-to-text, voice synthesis, and audio cleanup for production workflows.",
+    link: "https://www.deel-search.ai"
+  },
+  {
+    id: 992,
+    category: "Productivity",
+    title: "Coursera Voice",
+    description: "Coursera Voice improves personal and team productivity by organizing tasks, notes, and schedules with AI.",
+    link: "https://www.coursera-voice.ai"
+  },
+  {
+    id: 993,
+    category: "Sales & CRM",
+    title: "Khan Video",
+    description: "Khan Video helps sales teams prospect, personalize outreach, and maintain CRM data quality.",
+    link: "https://www.khan-video.ai"
+  },
+  {
+    id: 994,
+    category: "Marketing Automation",
+    title: "Duolingo Image",
+    description: "Duolingo Image helps marketers plan campaigns, generate creatives, and optimize performance.",
+    link: "https://www.duolingo-image.ai"
+  },
+  {
+    id: 995,
+    category: "Search & Research",
+    title: "Quizlet Agent",
+    description: "Quizlet Agent accelerates research with AI-powered discovery, summarization, and source organization.",
+    link: "https://www.quizlet-agent.ai"
+  },
+  {
+    id: 996,
+    category: "Education",
+    title: "Miro Composer",
+    description: "Miro Composer supports learning with AI tutoring, quiz generation, and adaptive study workflows.",
+    link: "https://www.miro-composer.ai"
+  },
+  {
+    id: 997,
+    category: "Design",
+    title: "FigJam Editor",
+    description: "FigJam Editor helps designers generate ideas, mockups, and polished assets faster.",
+    link: "https://www.figjam-editor.ai"
+  },
+  {
+    id: 998,
+    category: "Automation",
+    title: "Akkio Automations",
+    description: "Akkio Automations automates repetitive business workflows across connected apps and data sources.",
+    link: "https://www.akkio-automations.ai"
+  },
+  {
+    id: 999,
+    category: "Data & Analytics",
+    title: "MonkeyLearn Signals",
+    description: "MonkeyLearn Signals converts natural-language questions into metrics, charts, and actionable insights.",
+    link: "https://www.monkeylearn-signals.ai"
+  },
+  {
+    id: 1000,
+    category: "AI Assistant",
+    title: "Qdrant Dashboard",
+    description: "Qdrant Dashboard is an AI assistant that helps users answer questions, draft content, and automate multi-step work.",
+    link: "https://www.qdrant-dashboard.ai"
+  }
 ];
 
 if (typeof window !== 'undefined') {
