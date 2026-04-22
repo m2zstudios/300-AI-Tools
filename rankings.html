@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Top 30 AI Models Ranked – CacheNest</title>
-  <meta name="description" content="Weekly updated rankings of the top 30 AI language models. Compare GPT-4o, Claude, Gemini, Llama and more by capability, speed, and use case." />
-  <meta property="og:title" content="Top 30 AI Models Ranked – CacheNest" />
-  <meta property="og:description" content="Weekly updated leaderboard of the best AI models in 2025. Evaluated by performance, reasoning, coding, vision, and cost." />
+  <title>Top 30 AI Tools Ranked – CacheNest</title>
+  <meta name="description" content="Weekly updated rankings of 30 standout AI tools from our directory. Compare by overall score, reasoning, coding, vision, and context metrics." />
+  <meta property="og:title" content="Top 30 AI Tools Ranked – CacheNest" />
+  <meta property="og:description" content="Weekly updated leaderboard of top AI tools from CacheNest, evaluated by performance, reasoning, coding, vision, and value." />
   <meta property="og:type" content="website" />
   <link rel="canonical" href="https://cachenest.netlify.app/rankings.html" />
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -373,8 +373,8 @@
     <div class="rank-hero">
       <div class="container rank-hero-content">
         <div class="update-badge" id="updateBadge">Updated this week</div>
-        <h1><span class="gradient-text">Top 30 AI Models</span> <span class="emoji-preserve">🏆</span></h1>
-        <p>Weekly curated rankings of the world's most capable AI models — evaluated across reasoning, coding, vision, creativity, and cost efficiency.</p>
+        <h1><span class="gradient-text">Top 30 AI Tools</span> <span class="emoji-preserve">🏆</span></h1>
+        <p>Weekly curated rankings of the top AI tools in our directory — evaluated across capability, ease of use, value, popularity, and support quality.</p>
         <div class="countdown-wrap" id="countdownWrap">
           <span style="font-size:12px;color:var(--mu);font-weight:600;">Next update in:</span>
           <div class="countdown" id="countdown"></div>
@@ -385,7 +385,7 @@
     <div class="container">
       <!-- Category tabs -->
       <div class="filter-tabs" id="filterTabs">
-        <button class="filter-tab active" data-filter="all">🌐 All Models</button>
+        <button class="filter-tab active" data-filter="all">🌐 All Tools</button>
         <button class="filter-tab" data-filter="reasoning">🧠 Reasoning</button>
         <button class="filter-tab" data-filter="coding">💻 Coding</button>
         <button class="filter-tab" data-filter="vision">👁️ Vision</button>
@@ -404,19 +404,9 @@
           <option value="context">Context Window</option>
         </select>
         <div class="filter-divider"></div>
-        <label for="makerFilter">Company:</label>
+        <label for="makerFilter">Category:</label>
         <select id="makerFilter">
-          <option value="all">All Companies</option>
-          <option value="OpenAI">OpenAI</option>
-          <option value="Anthropic">Anthropic</option>
-          <option value="Google">Google</option>
-          <option value="Meta">Meta</option>
-          <option value="Mistral">Mistral</option>
-          <option value="xAI">xAI</option>
-          <option value="Cohere">Cohere</option>
-          <option value="DeepSeek">DeepSeek</option>
-          <option value="Microsoft">Microsoft</option>
-          <option value="Amazon">Amazon</option>
+          <option value="all">All Categories</option>
         </select>
       </div>
 
@@ -424,7 +414,7 @@
       <div class="leaderboard" id="leaderboard">
         <div class="leaderboard-header">
           <span>#</span>
-          <span>Model</span>
+          <span>Tool</span>
           <span class="sortable active" data-col="overall">Overall</span>
           <span class="sortable" data-col="reasoning">Reasoning</span>
           <span class="sortable" data-col="coding">Coding</span>
@@ -528,236 +518,7 @@
   </footer>
 
   <script src="script.js?v=20260314"></script>
-  <script>
-  (() => {
-    'use strict';
-
-    // ── DATA ──────────────────────────────────────────────────────────
-    // Scores: reasoning, coding, vision, writing, overall (0-100)
-    // context: in K tokens | tags: array | change: +n / -n / 0
-    const MODELS = [
-      { rank:1,  name:'o3',             maker:'OpenAI',    emoji:'🟢', overall:96, reasoning:98, coding:95, vision:88, context:200,  change:0,  tags:['api','vision'],        categories:['reasoning','coding','vision'] },
-      { rank:2,  name:'Claude 3.7 Sonnet', maker:'Anthropic', emoji:'🟣', overall:94, reasoning:96, coding:94, vision:85, context:200,  change:+1, tags:['api','vision','free'], categories:['reasoning','coding','vision','free'] },
-      { rank:3,  name:'Gemini 2.0 Ultra', maker:'Google',   emoji:'🔵', overall:93, reasoning:94, coding:91, vision:95, context:1000, change:-1, tags:['api','vision'],        categories:['reasoning','coding','vision'] },
-      { rank:4,  name:'GPT-4o',          maker:'OpenAI',   emoji:'🟢', overall:91, reasoning:91, coding:90, vision:92, context:128,  change:0,  tags:['api','vision','free'], categories:['reasoning','coding','vision','free'] },
-      { rank:5,  name:'Claude 3.5 Sonnet', maker:'Anthropic',emoji:'🟣', overall:90, reasoning:92, coding:93, vision:82, context:200,  change:+2, tags:['api','vision','free'], categories:['reasoning','coding','vision','free'] },
-      { rank:6,  name:'Gemini 2.0 Flash', maker:'Google',  emoji:'🔵', overall:88, reasoning:87, coding:88, vision:90, context:1000, change:0,  tags:['api','vision','free'], categories:['reasoning','coding','vision','free'] },
-      { rank:7,  name:'Grok 3',           maker:'xAI',     emoji:'⚫', overall:87, reasoning:89, coding:86, vision:80, context:131,  change:+3, tags:['api','vision'],        categories:['reasoning','vision'] },
-      { rank:8,  name:'DeepSeek R2',      maker:'DeepSeek',emoji:'🐋', overall:86, reasoning:90, coding:88, vision:0,  context:128,  change:+4, tags:['open','free'],         categories:['reasoning','coding','open-source','free'] },
-      { rank:9,  name:'Llama 3.3 405B',   maker:'Meta',    emoji:'🦙', overall:84, reasoning:83, coding:84, vision:0,  context:128,  change:-2, tags:['open'],                categories:['reasoning','coding','open-source'] },
-      { rank:10, name:'o1',               maker:'OpenAI',  emoji:'🟢', overall:83, reasoning:95, coding:87, vision:72, context:128,  change:-3, tags:['api','vision'],        categories:['reasoning','coding','vision'] },
-      { rank:11, name:'Command R+',        maker:'Cohere',  emoji:'🟠', overall:82, reasoning:80, coding:79, vision:0,  context:128,  change:0,  tags:['api','free'],          categories:['reasoning','free'] },
-      { rank:12, name:'Mistral Large 2',  maker:'Mistral', emoji:'🌀', overall:81, reasoning:82, coding:83, vision:0,  context:128,  change:+1, tags:['api','open'],          categories:['coding','open-source'] },
-      { rank:13, name:'Phi-4',            maker:'Microsoft',emoji:'💠', overall:79, reasoning:82, coding:80, vision:0,  context:16,   change:+5, tags:['open','free'],         categories:['reasoning','open-source','free'] },
-      { rank:14, name:'Qwen 2.5 72B',     maker:'Alibaba', emoji:'☁️', overall:78, reasoning:79, coding:81, vision:0,  context:128,  change:+2, tags:['open'],                categories:['coding','open-source'] },
-      { rank:15, name:'Gemma 3 27B',      maker:'Google',  emoji:'🔵', overall:77, reasoning:76, coding:78, vision:74, context:128,  change:0,  tags:['open','vision'],       categories:['vision','open-source'] },
-      { rank:16, name:'Claude 3 Haiku',   maker:'Anthropic',emoji:'🟣', overall:76, reasoning:75, coding:74, vision:73, context:200,  change:-1, tags:['api','vision','free'], categories:['vision','free'] },
-      { rank:17, name:'GPT-4o mini',      maker:'OpenAI',  emoji:'🟢', overall:75, reasoning:73, coding:74, vision:78, context:128,  change:0,  tags:['api','vision','free'], categories:['vision','free'] },
-      { rank:18, name:'Grok 2',           maker:'xAI',     emoji:'⚫', overall:74, reasoning:75, coding:72, vision:70, context:131,  change:-4, tags:['api'],                 categories:['reasoning'] },
-      { rank:19, name:'Nova Pro',         maker:'Amazon',  emoji:'🟡', overall:73, reasoning:72, coding:71, vision:69, context:300,  change:0,  tags:['api'],                 categories:['reasoning'] },
-      { rank:20, name:'Mixtral 8x22B',    maker:'Mistral', emoji:'🌀', overall:72, reasoning:70, coding:74, vision:0,  context:65,   change:-2, tags:['open'],                categories:['coding','open-source'] },
-      { rank:21, name:'Llama 3.1 70B',    maker:'Meta',    emoji:'🦙', overall:70, reasoning:68, coding:71, vision:0,  context:128,  change:0,  tags:['open','free'],         categories:['coding','open-source','free'] },
-      { rank:22, name:'DeepSeek V3',      maker:'DeepSeek',emoji:'🐋', overall:69, reasoning:71, coding:72, vision:0,  context:128,  change:+3, tags:['open'],                categories:['coding','open-source'] },
-      { rank:23, name:'Gemini Flash 1.5', maker:'Google',  emoji:'🔵', overall:68, reasoning:66, coding:66, vision:72, context:1000, change:0,  tags:['api','vision','free'], categories:['vision','free'] },
-      { rank:24, name:'Yi-Large',         maker:'01.AI',   emoji:'🟤', overall:66, reasoning:65, coding:64, vision:0,  context:32,   change:-1, tags:['api'],                 categories:['reasoning'] },
-      { rank:25, name:'Mistral Medium 3', maker:'Mistral', emoji:'🌀', overall:65, reasoning:64, coding:66, vision:0,  context:32,   change:+2, tags:['api'],                 categories:['coding'] },
-      { rank:26, name:'Falcon 180B',      maker:'TII',     emoji:'🦅', overall:62, reasoning:60, coding:58, vision:0,  context:4,    change:-2, tags:['open'],                categories:['open-source'] },
-      { rank:27, name:'Cohere Embed 3',   maker:'Cohere',  emoji:'🟠', overall:60, reasoning:58, coding:55, vision:0,  context:512,  change:0,  tags:['api'],                 categories:['reasoning'] },
-      { rank:28, name:'Llama 3.2 11B',    maker:'Meta',    emoji:'🦙', overall:58, reasoning:55, coding:57, vision:60, context:128,  change:+1, tags:['open','vision','free'], categories:['vision','open-source','free'] },
-      { rank:29, name:'OLMo 2 13B',       maker:'AI2',     emoji:'🔴', overall:56, reasoning:54, coding:53, vision:0,  context:4,    change:0,  tags:['open','free'],         categories:['open-source','free'] },
-      { rank:30, name:'Zephyr 7B',        maker:'HuggingFace',emoji:'🤗', overall:52, reasoning:50, coding:51, vision:0, context:32,  change:-1, tags:['open','free'],        categories:['open-source','free'] },
-    ];
-
-    // ── STATE ──────────────────────────────────────────────────────────
-    let activeFilter = 'all';
-    let sortCol = 'overall';
-    let sortAsc = false;
-    let makerFilter = 'all';
-
-    // ── HELPERS ────────────────────────────────────────────────────────
-    function fmtContext(k) {
-      if (k >= 1000) return `${k/1000}M`;
-      return `${k}K`;
-    }
-
-    function tagHtml(tags) {
-      const map = { free:'free', api:'api', open:'open', vision:'vision', new:'new' };
-      const label = { free:'Free', api:'API', open:'Open', vision:'Vision', new:'NEW' };
-      return tags.map(t => `<span class="model-tag tag-${map[t] || t}">${label[t] || t}</span>`).join('');
-    }
-
-    function changeBadge(c) {
-      if (c > 0) return `<span class="rank-change up">▲${c}</span>`;
-      if (c < 0) return `<span class="rank-change down">▼${Math.abs(c)}</span>`;
-      return `<span class="rank-change same">—</span>`;
-    }
-
-    function medalOrNum(rank) {
-      if (rank === 1) return '<span class="medal">🥇</span>';
-      if (rank === 2) return '<span class="medal">🥈</span>';
-      if (rank === 3) return '<span class="medal">🥉</span>';
-      return `<span class="rank-n">${rank}</span>`;
-    }
-
-    function scoreBar(score, isVision, model) {
-      const display = (isVision && score === 0) ? 'N/A' : score;
-      const pct = (isVision && score === 0) ? 0 : score;
-      return `
-        <div class="score-bar-wrap">
-          <span class="score-val">${display}</span>
-          <div class="score-bar-bg"><div class="score-bar-fill" style="width:${pct}%"></div></div>
-        </div>`;
-    }
-
-    function renderRows(data) {
-      const body = document.getElementById('rankBody');
-      if (!data.length) {
-        body.innerHTML = `<div class="empty-state"><h2>No models match this filter</h2><p>Try a different category or company.</p></div>`;
-        return;
-      }
-      body.innerHTML = data.map((m, i) => {
-        const pos = i + 1;
-        const isTop = pos <= 3;
-        const pct = `${m.overall}%`;
-        return `
-          <div class="rank-row ${isTop ? 'top-3' : ''} rank-${pos}" role="row">
-            <div class="rank-num">
-              ${medalOrNum(pos)}
-              ${changeBadge(m.change)}
-            </div>
-            <div class="model-info">
-              <div class="model-avatar">${m.emoji}</div>
-              <div class="model-text">
-                <div class="model-name">${m.name}</div>
-                <div class="model-maker">${m.maker}</div>
-                <div class="model-tags">${tagHtml(m.tags)}</div>
-              </div>
-            </div>
-            <div class="overall-cell">
-              <div class="overall-ring" style="--pct:${pct}">
-                <span>${m.overall}</span>
-              </div>
-            </div>
-            <div class="score-cell">${scoreBar(m.reasoning, false, m)}</div>
-            <div class="score-cell">${scoreBar(m.coding, false, m)}</div>
-            <div class="score-cell">${scoreBar(m.vision, true, m)}</div>
-            <div class="ctx-cell">${fmtContext(m.context)}</div>
-          </div>`;
-      }).join('');
-    }
-
-    function applyFiltersAndSort() {
-      let data = [...MODELS];
-
-      // Category filter
-      if (activeFilter !== 'all') {
-        data = data.filter(m => m.categories.includes(activeFilter));
-      }
-
-      // Maker filter
-      if (makerFilter !== 'all') {
-        data = data.filter(m => m.maker === makerFilter);
-      }
-
-      // Sort
-      data.sort((a, b) => {
-        const av = a[sortCol], bv = b[sortCol];
-        return sortAsc ? av - bv : bv - av;
-      });
-
-      renderRows(data);
-      updateSortHeaders();
-    }
-
-    function updateSortHeaders() {
-      document.querySelectorAll('.sortable').forEach(el => {
-        const col = el.dataset.col;
-        el.classList.toggle('active', col === sortCol);
-        el.classList.toggle('asc', col === sortCol && sortAsc);
-      });
-    }
-
-    // ── COUNTDOWN to next Friday ───────────────────────────────────────
-    function getNextFriday() {
-      const now = new Date();
-      const day = now.getDay(); // 0=Sun, 5=Fri
-      const daysUntil = (5 - day + 7) % 7 || 7;
-      const next = new Date(now);
-      next.setDate(now.getDate() + daysUntil);
-      next.setHours(18, 0, 0, 0); // 6pm
-      return next;
-    }
-
-    function updateCountdown() {
-      const el = document.getElementById('countdown');
-      if (!el) return;
-      const diff = getNextFriday() - new Date();
-      if (diff <= 0) { el.textContent = 'Updating now!'; return; }
-      const d = Math.floor(diff / 86400000);
-      const h = Math.floor((diff % 86400000) / 3600000);
-      const m = Math.floor((diff % 3600000) / 60000);
-      const s = Math.floor((diff % 60000) / 1000);
-      el.innerHTML = [
-        [d, 'Days'], [h, 'Hrs'], [m, 'Min'], [s, 'Sec']
-      ].map(([n, l]) => `
-        <div class="countdown-block">
-          <span class="countdown-n">${String(n).padStart(2,'0')}</span>
-          <span class="countdown-l">${l}</span>
-        </div>
-      `).join('<span class="countdown-sep">:</span>');
-    }
-
-    // ── UPDATE BADGE with this week's date ────────────────────────────
-    function setUpdateBadge() {
-      const badge = document.getElementById('updateBadge');
-      if (!badge) return;
-      const now = new Date();
-      const opts = { month: 'short', day: 'numeric', year: 'numeric' };
-      // Find last Friday
-      const day = now.getDay();
-      const daysBack = (day - 5 + 7) % 7;
-      const lastFri = new Date(now);
-      lastFri.setDate(now.getDate() - daysBack);
-      badge.textContent = `Updated ${lastFri.toLocaleDateString('en-US', opts)}`;
-    }
-
-    // ── EVENTS ────────────────────────────────────────────────────────
-    document.getElementById('filterTabs').addEventListener('click', e => {
-      const tab = e.target.closest('.filter-tab');
-      if (!tab) return;
-      document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-      activeFilter = tab.dataset.filter;
-      applyFiltersAndSort();
-    });
-
-    document.getElementById('sortBy').addEventListener('change', e => {
-      sortCol = e.target.value;
-      applyFiltersAndSort();
-    });
-
-    document.getElementById('makerFilter').addEventListener('change', e => {
-      makerFilter = e.target.value;
-      applyFiltersAndSort();
-    });
-
-    document.querySelector('.leaderboard-header').addEventListener('click', e => {
-      const col = e.target.closest('.sortable')?.dataset.col;
-      if (!col) return;
-      if (sortCol === col) { sortAsc = !sortAsc; } else { sortCol = col; sortAsc = false; }
-      document.getElementById('sortBy').value = col;
-      applyFiltersAndSort();
-    });
-
-    // ── INIT ──────────────────────────────────────────────────────────
-    setUpdateBadge();
-    applyFiltersAndSort();
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
-
-    // Theme + menu (shared with rest of site via script.js)
-    // The main script.js init still handles scroll progress / year / menu toggle
-  })();
-  </script>
+  <script src="tools.js"></script>
+  <script src="rankings.js?v=20260422"></script>
 </body>
 </html>
